@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Anurag&#39;s Blog</title>
+    <link>//localhost:1313/tags/</link>
+    <description>Recent content in Tags on Anurag&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Anurag Saxena</copyright>
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Azure</title>
+      <link>//localhost:1313/tags/azure/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/azure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fastapi</title>
+      <link>//localhost:1313/tags/fastapi/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/fastapi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>//localhost:1313/tags/python/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Saml</title>
+      <link>//localhost:1313/tags/saml/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/saml/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sso</title>
+      <link>//localhost:1313/tags/sso/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/sso/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2019</title>
+      <link>//localhost:1313/tags/2019/</link>
+      <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/2019/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apps</title>
+      <link>//localhost:1313/tags/apps/</link>
+      <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/apps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Passwords</title>
+      <link>//localhost:1313/tags/passwords/</link>
+      <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/passwords/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2018</title>
+      <link>//localhost:1313/tags/2018/</link>
+      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/2018/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>52p52w</title>
+      <link>//localhost:1313/tags/52p52w/</link>
+      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/52p52w/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Code</title>
+      <link>//localhost:1313/tags/code/</link>
+      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Til</title>
+      <link>//localhost:1313/tags/til/</link>
+      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/til/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vim</title>
+      <link>//localhost:1313/tags/vim/</link>
+      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/vim/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vote</title>
+      <link>//localhost:1313/tags/vote/</link>
+      <pubDate>Tue, 06 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/vote/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Investments</title>
+      <link>//localhost:1313/tags/investments/</link>
+      <pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/investments/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stocks</title>
+      <link>//localhost:1313/tags/stocks/</link>
+      <pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/stocks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thoughts</title>
+      <link>//localhost:1313/tags/thoughts/</link>
+      <pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/thoughts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Podcasts</title>
+      <link>//localhost:1313/tags/podcasts/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/podcasts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ios</title>
+      <link>//localhost:1313/tags/ios/</link>
+      <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/ios/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Allegany</title>
+      <link>//localhost:1313/tags/allegany/</link>
+      <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/allegany/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cabin</title>
+      <link>//localhost:1313/tags/cabin/</link>
+      <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/cabin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hiking</title>
+      <link>//localhost:1313/tags/hiking/</link>
+      <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/hiking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nature</title>
+      <link>//localhost:1313/tags/nature/</link>
+      <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/nature/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>State Parks</title>
+      <link>//localhost:1313/tags/state-parks/</link>
+      <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/state-parks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Travel</title>
+      <link>//localhost:1313/tags/travel/</link>
+      <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/travel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>//localhost:1313/tags/git/</link>
+      <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github</title>
+      <link>//localhost:1313/tags/github/</link>
+      <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/github/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Macbook</title>
+      <link>//localhost:1313/tags/macbook/</link>
+      <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/macbook/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ghost</title>
+      <link>//localhost:1313/tags/ghost/</link>
+      <pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/ghost/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
