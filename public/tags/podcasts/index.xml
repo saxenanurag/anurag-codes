@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>podcasts on anurags blog</title>
+    <link>/tags/podcasts/</link>
+    <description>Recent content in podcasts on anurags blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Anurag Saxena</copyright>
+    <lastBuildDate>Wed, 31 Oct 2018 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="/tags/podcasts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Podcasts I listen to regularly</title>
+      <link>/post/podcasts-i-listen-to-regularly/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/post/podcasts-i-listen-to-regularly/</guid>
+      <description>Here are the podcasts that I listen to regularly, and recommend to folks who want to listen to something new.
+ Up First - NPR - my go to podcast every morning Monday to Friday. Catch up on the top headlines and news for the day in about 13-15 minutes. Freakonomics Radio The Indicator from Planet Money - NPR Pod Save America Radiolab Star Talk Radio - recently started listening to it and loving it.</description>
+    </item>
+    
+    <item>
+      <title>Overcast.fm</title>
+      <link>/post/overcast-fm/</link>
+      <pubDate>Mon, 22 Oct 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/post/overcast-fm/</guid>
+      <description>Overcast is a podcast player that is available on iOS to listen to podcasts. I have been using overcast since 2015 and I have loved it. I stopped using it and switched to the stock Podcasts app on iOS for a minute when I could not get the podcasts on my watch, but then I switched back when watchOS allowed for Overcast to play podcasts directly on the Apple Watch - which is a game changer for me.</description>
+    </item>
+    
+  </channel>
+</rss>

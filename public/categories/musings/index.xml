@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>musings on anurags blog</title>
+    <link>/categories/musings/</link>
+    <description>Recent content in musings on anurags blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Anurag Saxena</copyright>
+    <lastBuildDate>Thu, 01 Nov 2018 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="/categories/musings/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Do the boring thing</title>
+      <link>/post/do-the-boring-thing/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/post/do-the-boring-thing/</guid>
+      <description>that is all.</description>
+    </item>
+    
+  </channel>
+</rss>

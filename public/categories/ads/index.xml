@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ads on anurags blog</title>
+    <link>/categories/ads/</link>
+    <description>Recent content in ads on anurags blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Anurag Saxena</copyright>
+    <lastBuildDate>Tue, 02 Jan 2018 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="/categories/ads/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>When to not use an ad blocker</title>
+      <link>/post/when-to-not-use-an-ad-blocker/</link>
+      <pubDate>Tue, 02 Jan 2018 00:00:00 -0500</pubDate>
+      
+      <guid>/post/when-to-not-use-an-ad-blocker/</guid>
+      <description>I use an ad-blocker on my browsers. Its called ad-block plus.
+The good part of using an ad-blocker is that it blocks the ads on the sites I visit. It also helps with blocking malware, spam, and cookies that track over websites (you know how when you search for shoes on zappos and then that shoe ad shows up on every website you visit).
+The bad part of using an ad-blocker is that there are websites that are solely run, or are majorly dependent on ad revenue.</description>
+    </item>
+    
+  </channel>
+</rss>

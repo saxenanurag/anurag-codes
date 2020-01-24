@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>travel on anurags blog</title>
+    <link>/tags/travel/</link>
+    <description>Recent content in travel on anurags blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Anurag Saxena</copyright>
+    <lastBuildDate>Fri, 28 Sep 2018 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="/tags/travel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Camping in Allegany State Park</title>
+      <link>/post/hiking-in-allegany-state-p/</link>
+      <pubDate>Fri, 28 Sep 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/post/hiking-in-allegany-state-p/</guid>
+      <description>Few weeks ago, my wife and I went camping at the Allegany State Park in New York. This is a year round park - meaning that its open all year around for campers and visitors alike.
+The park is huge at 64,800 acres. This was our first time here and we enjoyed the stay. Our cabin faced this tiny creek which was beautiful.
+Being that this park is also bear country, we had to be mindful of our belongings.</description>
+    </item>
+    
+    <item>
+      <title>India 2018</title>
+      <link>/post/india-2018/</link>
+      <pubDate>Sun, 04 Feb 2018 00:00:00 -0500</pubDate>
+      
+      <guid>/post/india-2018/</guid>
+      <description>I love coming to India. It is the country where I am “really from”. It is where I grew up. But, I have not been living here 9 years now, and every time I visit, I see new things. I see how the country is advancing, and I see where it lacks behind.
+The smartphone market has exploded in India with everyone holding a smartphone. You can even hail a rickshaw with your phone, which is great - because I hate to haggle on fares.</description>
+    </item>
+    
+  </channel>
+</rss>
