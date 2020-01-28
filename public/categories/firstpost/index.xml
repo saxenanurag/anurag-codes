@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>firstpost on anurags blog</title>
+    <link>/categories/firstpost/</link>
+    <description>Recent content in firstpost on anurags blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Anurag Saxena</copyright>
+    <lastBuildDate>Tue, 19 Dec 2017 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="/categories/firstpost/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>52 posts in 52 weeks (atleast)</title>
+      <link>/post/52-posts-in-52-weeks-atleast/</link>
+      <pubDate>Tue, 19 Dec 2017 00:00:00 -0500</pubDate>
+      
+      <guid>/post/52-posts-in-52-weeks-atleast/</guid>
+      <description>I have been wanting to do this for a while - blog. And by a while, I mean for years now. I try, and then I am not so comfortable about it, and things come up, and I give up. It is easy to give up. There is no direct immediate cost to giving up. There are other, easier things to do.
+But why write? Why blog? Well because writing is a means of recording information.</description>
+    </item>
+    
+  </channel>
+</rss>
