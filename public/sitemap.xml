@@ -183,17 +183,12 @@
   </url>
   
   <url>
-    <loc>/categories/investments/</loc>
-    <lastmod>2018-11-02T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/investments/</loc>
     <lastmod>2018-11-02T00:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/stocks/</loc>
+    <loc>/categories/investments/</loc>
     <lastmod>2018-11-02T00:00:00-04:00</lastmod>
   </url>
   
@@ -203,12 +198,12 @@
   </url>
   
   <url>
-    <loc>/post/do-the-boring-thing/</loc>
-    <lastmod>2018-11-01T00:00:00-04:00</lastmod>
+    <loc>/categories/stocks/</loc>
+    <lastmod>2018-11-02T00:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/musings/</loc>
+    <loc>/post/do-the-boring-thing/</loc>
     <lastmod>2018-11-01T00:00:00-04:00</lastmod>
   </url>
   
@@ -218,12 +213,17 @@
   </url>
   
   <url>
-    <loc>/categories/podcasts/</loc>
-    <lastmod>2018-10-31T00:00:00-04:00</lastmod>
+    <loc>/categories/musings/</loc>
+    <lastmod>2018-11-01T00:00:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/podcasts/</loc>
+    <lastmod>2018-10-31T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/podcasts/</loc>
     <lastmod>2018-10-31T00:00:00-04:00</lastmod>
   </url>
   
@@ -233,12 +233,12 @@
   </url>
   
   <url>
-    <loc>/tags/ios/</loc>
+    <loc>/categories/ios/</loc>
     <lastmod>2018-10-22T00:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/ios/</loc>
+    <loc>/tags/ios/</loc>
     <lastmod>2018-10-22T00:00:00-04:00</lastmod>
   </url>
   
@@ -273,12 +273,12 @@
   </url>
   
   <url>
-    <loc>/tags/hiking/</loc>
+    <loc>/categories/hiking/</loc>
     <lastmod>2018-09-28T00:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/hiking/</loc>
+    <loc>/tags/hiking/</loc>
     <lastmod>2018-09-28T00:00:00-04:00</lastmod>
   </url>
   
@@ -293,22 +293,22 @@
   </url>
   
   <url>
-    <loc>/tags/state-parks/</loc>
-    <lastmod>2018-09-28T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/categories/state-parks/</loc>
     <lastmod>2018-09-28T00:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/travel/</loc>
+    <loc>/tags/state-parks/</loc>
     <lastmod>2018-09-28T00:00:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/travel/</loc>
+    <lastmod>2018-09-28T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/travel/</loc>
     <lastmod>2018-09-28T00:00:00-04:00</lastmod>
   </url>
   
@@ -328,12 +328,12 @@
   </url>
   
   <url>
-    <loc>/categories/airbnb/</loc>
+    <loc>/tags/airbnb/</loc>
     <lastmod>2018-08-13T00:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/airbnb/</loc>
+    <loc>/categories/airbnb/</loc>
     <lastmod>2018-08-13T00:00:00-04:00</lastmod>
   </url>
   
@@ -358,22 +358,22 @@
   </url>
   
   <url>
-    <loc>/tags/github/</loc>
-    <lastmod>2018-07-24T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/categories/github/</loc>
     <lastmod>2018-07-24T00:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/microsoft/</loc>
-    <lastmod>2018-06-04T00:00:00-04:00</lastmod>
+    <loc>/tags/github/</loc>
+    <lastmod>2018-07-24T00:00:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/microsoft/</loc>
+    <lastmod>2018-06-04T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/microsoft/</loc>
     <lastmod>2018-06-04T00:00:00-04:00</lastmod>
   </url>
   
@@ -423,12 +423,12 @@
   </url>
   
   <url>
-    <loc>/tags/india/</loc>
+    <loc>/categories/india/</loc>
     <lastmod>2018-02-04T00:00:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/india/</loc>
+    <loc>/tags/india/</loc>
     <lastmod>2018-02-04T00:00:00-05:00</lastmod>
   </url>
   
@@ -453,12 +453,12 @@
   </url>
   
   <url>
-    <loc>/categories/ads/</loc>
+    <loc>/tags/ads/</loc>
     <lastmod>2018-01-02T00:00:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/ads/</loc>
+    <loc>/categories/ads/</loc>
     <lastmod>2018-01-02T00:00:00-05:00</lastmod>
   </url>
   
