@@ -13,7 +13,7 @@ type = "page"
 
 Hi!
 
-I am a Full Stack Developer living in sunny Cleveland, OH. I have been here for nine years and I like it here.
+I am a Full Stack Developer living in sunny Cleveland, OH.
 
 You can find me on [Twitter](https://twitter.com/_asaxena), [Github](https://github.com/saxenanurag), [Instagram](https://www.instagram.com/asaxena112/), and [Linkedin](https://www.linkedin.com/in/anurags85/).
 
