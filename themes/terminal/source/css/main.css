@@ -222,11 +222,6 @@ ol {
   @media (--phone) {
     margin-left: 20px;
   }
-
-  ul,
-  ol {
-    margin-top: 20px;
-  }
 }
 
 ol ol {
@@ -254,10 +249,19 @@ ol ol {
   @media (--phone) {
     padding: 20px;
   }
+
+  @media print {
+    display: initial;
+  }
 }
 
 .content {
   display: flex;
+  flex-direction: column;
+
+  @media print {
+    display: initial;
+  }
 }
 
 hr {

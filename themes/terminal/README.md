@@ -94,20 +94,36 @@ paginate = 5
   # set a custom favicon (default is a `themeColor` square)
   # favicon = "favicon.ico"
 
+  # set post to show the last updated
+  # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
+  showLastUpdated = false
+  # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
+  # updatedDatePrefix = "Updated"
+
   # set all headings to their default size (depending on browser settings)
   # it's set to `true` by default
   # oneHeadingSize = false
+
+[params.twitter]
+  # set Twitter handles for Twitter cards
+  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
+  # do not include @
+  creator = ""
+  site = ""
 
 [languages]
   [languages.en]
     languageName = "English"
     title = "Terminal"
     subtitle = "A simple, retro theme for Hugo"
+    owner = ""
     keywords = ""
     copyright = ""
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
       logoText = "Terminal"

@@ -24,7 +24,12 @@
 - https://dawsonverboven.com/ **Dawson Verboven** (Student & Software Developer)
 - https://www.rockyourcode.com **Sophia Brandt** (tax officer and hobby coder)
 - https://qbunt.com **Jeremy Bunting** (Software Engineer)
-
+- https://smeik.org **Smeik** (Embedded Developer)
+- https://code.willstocks.co.uk **Will Stocks** (Blogger & Developer)
+- https://blog.vnandag.me **Nanda Gopal** (Student Developer)
+- https://m47r1x.github.io **Neo** (Citizen of Zion)
+- https://bgameiro.me/ **Bernardo Gameiro** (Engineer Physicist student)
+- https://return-to-libc.com/ **elraro** (Cyber Security Specialist)
 
 <!--
 TEMPLATE:
