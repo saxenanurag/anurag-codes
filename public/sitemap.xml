@@ -8,8 +8,8 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2019-12-27T00:00:00-05:00</lastmod>
+    <loc>/tags/2019/</loc>
+    <lastmod>2019-06-27T00:00:00-04:00</lastmod>
   </url>
   
   <url>
@@ -18,7 +18,7 @@
   </url>
   
   <url>
-    <loc>/tags/2019/</loc>
+    <loc>/</loc>
     <lastmod>2019-06-27T00:00:00-04:00</lastmod>
   </url>
   
@@ -78,22 +78,22 @@
   </url>
   
   <url>
-    <loc>/categories/52p52w/</loc>
-    <lastmod>2018-12-24T00:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/52p52w/</loc>
     <lastmod>2018-12-24T00:00:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/justdoit/</loc>
+    <loc>/categories/52p52w/</loc>
     <lastmod>2018-12-24T00:00:00-05:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/justdoit/</loc>
+    <lastmod>2018-12-24T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/justdoit/</loc>
     <lastmod>2018-12-24T00:00:00-05:00</lastmod>
   </url>
   
@@ -108,12 +108,12 @@
   </url>
   
   <url>
-    <loc>/categories/motivation/</loc>
+    <loc>/tags/motivation/</loc>
     <lastmod>2018-12-24T00:00:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/motivation/</loc>
+    <loc>/categories/motivation/</loc>
     <lastmod>2018-12-24T00:00:00-05:00</lastmod>
   </url>
   
@@ -233,12 +233,12 @@
   </url>
   
   <url>
-    <loc>/categories/ios/</loc>
+    <loc>/tags/ios/</loc>
     <lastmod>2018-10-22T00:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/ios/</loc>
+    <loc>/categories/ios/</loc>
     <lastmod>2018-10-22T00:00:00-04:00</lastmod>
   </url>
   
@@ -248,17 +248,12 @@
   </url>
   
   <url>
-    <loc>/categories/allegany/</loc>
-    <lastmod>2018-09-28T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/allegany/</loc>
     <lastmod>2018-09-28T00:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/cabin/</loc>
+    <loc>/categories/allegany/</loc>
     <lastmod>2018-09-28T00:00:00-04:00</lastmod>
   </url>
   
@@ -268,12 +263,12 @@
   </url>
   
   <url>
-    <loc>/post/hiking-in-allegany-state-p/</loc>
+    <loc>/categories/cabin/</loc>
     <lastmod>2018-09-28T00:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/hiking/</loc>
+    <loc>/post/hiking-in-allegany-state-p/</loc>
     <lastmod>2018-09-28T00:00:00-04:00</lastmod>
   </url>
   
@@ -283,7 +278,7 @@
   </url>
   
   <url>
-    <loc>/categories/nature/</loc>
+    <loc>/categories/hiking/</loc>
     <lastmod>2018-09-28T00:00:00-04:00</lastmod>
   </url>
   
@@ -293,7 +288,7 @@
   </url>
   
   <url>
-    <loc>/categories/state-parks/</loc>
+    <loc>/categories/nature/</loc>
     <lastmod>2018-09-28T00:00:00-04:00</lastmod>
   </url>
   
@@ -303,7 +298,7 @@
   </url>
   
   <url>
-    <loc>/categories/travel/</loc>
+    <loc>/categories/state-parks/</loc>
     <lastmod>2018-09-28T00:00:00-04:00</lastmod>
   </url>
   
@@ -313,17 +308,22 @@
   </url>
   
   <url>
+    <loc>/categories/travel/</loc>
+    <lastmod>2018-09-28T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/pydoc/</loc>
     <lastmod>2018-09-16T00:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/python/</loc>
+    <loc>/tags/python/</loc>
     <lastmod>2018-09-16T00:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/python/</loc>
+    <loc>/categories/python/</loc>
     <lastmod>2018-09-16T00:00:00-04:00</lastmod>
   </url>
   
@@ -358,12 +358,12 @@
   </url>
   
   <url>
-    <loc>/categories/github/</loc>
+    <loc>/tags/github/</loc>
     <lastmod>2018-07-24T00:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/github/</loc>
+    <loc>/categories/github/</loc>
     <lastmod>2018-07-24T00:00:00-04:00</lastmod>
   </url>
   
@@ -398,12 +398,12 @@
   </url>
   
   <url>
-    <loc>/categories/macbook/</loc>
+    <loc>/tags/macbook/</loc>
     <lastmod>2018-03-06T00:00:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/macbook/</loc>
+    <loc>/categories/macbook/</loc>
     <lastmod>2018-03-06T00:00:00-05:00</lastmod>
   </url>
   
@@ -423,12 +423,12 @@
   </url>
   
   <url>
-    <loc>/categories/india/</loc>
+    <loc>/tags/india/</loc>
     <lastmod>2018-02-04T00:00:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/india/</loc>
+    <loc>/categories/india/</loc>
     <lastmod>2018-02-04T00:00:00-05:00</lastmod>
   </url>
   
@@ -468,12 +468,12 @@
   </url>
   
   <url>
-    <loc>/categories/2017/</loc>
+    <loc>/tags/2017/</loc>
     <lastmod>2017-12-19T00:00:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/2017/</loc>
+    <loc>/categories/2017/</loc>
     <lastmod>2017-12-19T00:00:00-05:00</lastmod>
   </url>
   

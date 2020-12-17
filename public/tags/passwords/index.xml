@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Anurag Saxena</copyright>
-    <lastBuildDate>Thu, 27 Jun 2019 00:00:00 -0400</lastBuildDate>
-    
-	<atom:link href="/tags/passwords/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 27 Jun 2019 00:00:00 -0400</lastBuildDate><atom:link href="/tags/passwords/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Passwords should be disposable</title>
       <link>/post/passwords-should-be-disposable/</link>

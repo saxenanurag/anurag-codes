@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Anurag Saxena</copyright>
-    <lastBuildDate>Wed, 31 Oct 2018 00:00:00 -0400</lastBuildDate>
-    
-	<atom:link href="/categories/podcasts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 31 Oct 2018 00:00:00 -0400</lastBuildDate><atom:link href="/categories/podcasts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Podcasts I listen to regularly</title>
       <link>/post/podcasts-i-listen-to-regularly/</link>

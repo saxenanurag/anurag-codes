@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Anurag Saxena</copyright>
-    <lastBuildDate>Fri, 09 Nov 2018 00:00:00 -0500</lastBuildDate>
-    
-	<atom:link href="/categories/vim/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 09 Nov 2018 00:00:00 -0500</lastBuildDate><atom:link href="/categories/vim/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TIL: Creating a new file or folder in NerdTree</title>
       <link>/post/til-creating-a-new-file-or-folder-in-nerdtree/</link>
