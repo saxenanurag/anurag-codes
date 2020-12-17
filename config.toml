@@ -3,8 +3,6 @@ languageCode = "en-us"
 theme = "terminal"
 paginate = 5
 
-ignoreErrors = ["error-remote-getjson"]
-
 [params]
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "post"
