@@ -1,55 +1,54 @@
 baseurl = "/"
 languageCode = "en-us"
-theme = "terminal"
-paginate = 5
+title = "Anurag's Blog"
+theme = "archie"
+copyright = "© Anurag Saxena"
+
+# Code Highlight
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+paginate=3 # articles per page
 
 [params]
-  # dir name of your blog content (default is `content/posts`)
-  contentTypeName = "post"
+	mode="auto" # color-mode → light,dark,toggle or auto
+	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
+	subtitle = "Posts, Thoughts, TILs, etc."
+	mathjax = true # enable MathJax support
+	katex = true # enable KaTeX support
 
-  # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "orange"
+# Social Tags
 
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+[[params.social]]
+name = "Linkedin"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/anurags85/"
 
-  # show selector to switch language
-  showLanguageSelector = false
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/saxenanurag"
 
-  # set theme to full screen width
-  fullWidthTheme = false
 
-  # center theme with default width
-  centerTheme = true
+# Main menu Items
 
-  # set a custom favicon (default is a `themeColor` square)
-  # favicon = "favicon.ico"
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
 
-  # set all headings to their default size (depending on browser settings)
-  # it's set to `true` by default
-  # oneHeadingSize = false
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
 
-[languages]
-  [languages.en]
-    languageName = "English"
-    title = "anurags blog"
-    subtitle = "anurags blog"
-    keywords = "anurag saxena, anurag, blog"
-    copyright = "Anurag Saxena"
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
 
-    [languages.en.params.logo]
-      logoText = "anurag.codes"
-      logoHomeLink = "/"
-
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-      # [[languages.en.menu.main]]
-      #  identifier = "showcase"
-      #  name = "Showcase"
-      #  url = "/showcase"
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4

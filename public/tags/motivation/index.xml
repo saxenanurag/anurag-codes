@@ -1,35 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>motivation on anurags blog</title>
+    <title>motivation on Anurag&#39;s Blog</title>
     <link>/tags/motivation/</link>
-    <description>Recent content in motivation on anurags blog</description>
+    <description>Recent content in motivation on Anurag&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Anurag Saxena</copyright>
-    <lastBuildDate>Mon, 24 Dec 2018 00:00:00 -0500</lastBuildDate><atom:link href="/tags/motivation/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© Anurag Saxena</copyright>
+    <lastBuildDate>Mon, 24 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/motivation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>52 posts in 52 weeks: result</title>
-      <link>/post/52-posts-result/</link>
-      <pubDate>Mon, 24 Dec 2018 00:00:00 -0500</pubDate>
-      
-      <guid>/post/52-posts-result/</guid>
-      <description>At the end of 2017, I decided to make blogging a part of my life of 2018. I decided that I will be writing 52 posts, which is a post a week. And hence, 52 posts in 52 weeks was born.
-It’s the end of 2018 and I published 18 posts (not counting this post). 18 is less than 52, but better than 0.
-The year started off with a post a week, but I quickly fell behind.</description>
+      <link>/posts/52-posts-result/</link>
+      <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>/posts/52-posts-result/</guid>
+      <description>At the end of 2017, I decided to make blogging a part of my life of 2018. I decided that I will be writing 52 posts, which is a post a week. And hence, 52 posts in 52 weeks was born.&#xA;It’s the end of 2018 and I published 18 posts (not counting this post). 18 is less than 52, but better than 0.&#xA;The year started off with a post a week, but I quickly fell behind.</description>
     </item>
-    
     <item>
       <title>Dont wait. Just do it</title>
-      <link>/post/dont-wait-just-do-it/</link>
-      <pubDate>Mon, 13 Aug 2018 00:00:00 -0400</pubDate>
-      
-      <guid>/post/dont-wait-just-do-it/</guid>
-      <description>On August 11, 2018, this tweet went out.
-On this day ten years ago, Airbnb launched. pic.twitter.com/UFA7b1weRh
-&amp;mdash; Brian Chesky (@bchesky) August 11, 2018  Look at the screenshot. Look how rudimentary the site looks. Yet AirBnb was started. And now its worth a billion dollars.
-Dont wait for the right idea to come in your head. Just do it. You will fail. But after failure will come success. Just do it.</description>
+      <link>/posts/dont-wait-just-do-it/</link>
+      <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/posts/dont-wait-just-do-it/</guid>
+      <description>On August 11, 2018, this tweet went out.&#xA;On this day ten years ago, Airbnb launched. pic.twitter.com/UFA7b1weRh&#xA;&amp;mdash; Brian Chesky (@bchesky) August 11, 2018 Look at the screenshot. Look how rudimentary the site looks. Yet AirBnb was started. And now its worth a billion dollars.&#xA;Dont wait for the right idea to come in your head. Just do it. You will fail. But after failure will come success. Just do it.</description>
     </item>
-    
   </channel>
 </rss>
