@@ -10,5 +10,6 @@ type = "page"
 +++
 
 Software Developer in Cleveland, OH
+
 #PEP 20
 
