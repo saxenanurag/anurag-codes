@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2019 on anurags blog</title>
+    <title>2019 on Anurag&#39;s Blog</title>
     <link>/tags/2019/</link>
-    <description>Recent content in 2019 on anurags blog</description>
+    <description>Recent content in 2019 on Anurag&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Anurag Saxena</copyright>
-    <lastBuildDate>Thu, 27 Jun 2019 00:00:00 -0400</lastBuildDate><atom:link href="/tags/2019/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© Anurag Saxena</copyright>
+    <lastBuildDate>Thu, 27 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/2019/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Passwords should be disposable</title>
-      <link>/post/passwords-should-be-disposable/</link>
-      <pubDate>Thu, 27 Jun 2019 00:00:00 -0400</pubDate>
-      
-      <guid>/post/passwords-should-be-disposable/</guid>
+      <link>/posts/passwords-should-be-disposable/</link>
+      <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>/posts/passwords-should-be-disposable/</guid>
       <description>Passwords should be long - as long as you want to make them. The longer the password, the bigger its entropy. Mathematically, guessing the password sallysallysally will take longer computing time than sally. Websites or apps that ask for 8-16 character passwords should not be asking for a max character limit of passwords. Instead they should encourage users to create long passwords. Also, do not restrict the user to only use certain special characters - let them use all of them.</description>
     </item>
-    
   </channel>
 </rss>
