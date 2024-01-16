@@ -7,8 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Anurag Saxena</copyright>
-    <lastBuildDate>Thu, 27 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>azure</title>
+      <link>/tags/azure/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/tags/azure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>fastapi</title>
+      <link>/tags/fastapi/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/tags/fastapi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>python</title>
+      <link>/tags/python/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>saml</title>
+      <link>/tags/saml/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/tags/saml/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>sso</title>
+      <link>/tags/sso/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/tags/sso/</guid>
+      <description></description>
+    </item>
     <item>
       <title>2019</title>
       <link>/tags/2019/</link>
@@ -175,13 +210,6 @@
       <link>/tags/travel/</link>
       <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
       <guid>/tags/travel/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>python</title>
-      <link>/tags/python/</link>
-      <pubDate>Sun, 16 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/python/</guid>
       <description></description>
     </item>
     <item>

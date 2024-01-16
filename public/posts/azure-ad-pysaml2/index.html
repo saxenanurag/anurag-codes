@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html><head lang="en">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Integrate Azure AD SSO with SAML for your FastAPI Application using PySAML2 - Anurag&#39;s Blog</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="How to add Azure AD SSO with SAML for your FastAPI Application" />
+	<meta property="og:image" content=""/>
+	<meta property="og:title" content="Integrate Azure AD SSO with SAML for your FastAPI Application using PySAML2" />
+<meta property="og:description" content="How to add Azure AD SSO with SAML for your FastAPI Application" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/azure-ad-pysaml2/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-01-15T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-01-15T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Integrate Azure AD SSO with SAML for your FastAPI Application using PySAML2"/>
+<meta name="twitter:description" content="How to add Azure AD SSO with SAML for your FastAPI Application"/>
+<script src="/js/feather.min.js"></script>
+	
+	
+        <link href="/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css" media="(prefers-color-scheme: dark)"  />
+	
+
+	
+	
+		<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+		</script>
+	
+		
+		<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+			tex2jax: {
+				inlineMath: [['$','$'], ['\\(','\\)']],
+				displayMath: [['$$','$$'], ['\[','\]']],
+				processEscapes: true,
+				processEnvironments: true,
+				skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+				TeX: { equationNumbers: { autoNumber: "AMS" },
+						 extensions: ["AMSmath.js", "AMSsymbols.js"] }
+			}
+		});
+		</script>
+	
+
+	
+	
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css">
+		<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js"></script>
+		<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+		
+		
+		<script>
+			document.addEventListener("DOMContentLoaded", function() {
+					renderMathInElement(document.body, {
+							delimiters: [
+									{left: "$$", right: "$$", display: true},
+									{left: "$", right: "$", display: false}
+							]
+					});
+			});
+			</script>
+	
+	
+	
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="/">Anurag&#39;s Blog</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/posts">All posts</a>
+		
+		<a href="/about">About</a>
+		
+		<a href="/tags">Tags</a>
+		
+		
+	</nav>
+</header>
+
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">Integrate Azure AD SSO with SAML for your FastAPI Application using PySAML2</h1>
+			<div class="meta">Posted on Jan 15, 2024</div>
+		</div>
+		
+
+		<section class="body">
+			<p>Recently I had to work on a Azure AD SAML integration for a FastAPI application.
+I looked around the internet for a how to and stitched together a solution from
+multiple sources. I am writing this post as a how to on integrating Azure AD SAML
+SSO into a FastAPI application so that there is a single source for others to use.
+I am using PySAML2 and I am sure there are better ways to do this but this is how
+I did it. This integration is written for a FastAPI application but since PySAML2 is
+a library seperate from the Web Framework being used, you could use this as a guide
+to integrate PySAML2 with Flask etc.</p>
+<p>You will need to get a metadata file from your Azure AD Administrator.
+It will be an XML file built for your application.</p>
+<p>Install PySAML2 as decsribed in the <a href="https://pysaml2.readthedocs.io/en/latest/">docs</a>.</p>
+<p>Also install xmlsec1 as stated in the <a href="https://pysaml2.readthedocs.io/en/latest/install.html#prerequisites">prerequisites</a>.
+If you are using homebrew you can simply install by running <code>brew install libxmlsec1</code>.</p>
+<h2 id="setup-the-class">Setup the class</h2>
+<p>All the SSO work can be done using one class.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> base64
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> saml2 <span style="color:#f92672">import</span> BINDING_HTTP_POST, BINDING_HTTP_REDIRECT
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> saml2.client <span style="color:#f92672">import</span> Saml2Client
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> saml2.config <span style="color:#f92672">import</span> Config
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> saml2.saml <span style="color:#f92672">import</span> name_id_from_string
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@dataclass</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">SAMLService</span>:
+</span></span><span style="display:flex;"><span>    saml_config <span style="color:#f92672">=</span> load_saml_config()
+</span></span><span style="display:flex;"><span>    saml_client <span style="color:#f92672">=</span> Saml2Client(config<span style="color:#f92672">=</span>saml_config)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">prepare_for_authenticate</span>(self, redirect_url<span style="color:#f92672">=</span><span style="color:#66d9ef">None</span>):
+</span></span><span style="display:flex;"><span>        relay_state <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> redirect_url:
+</span></span><span style="display:flex;"><span>            relay_state <span style="color:#f92672">=</span> base64<span style="color:#f92672">.</span>b64encode(redirect_url<span style="color:#f92672">.</span>encode(<span style="color:#e6db74">&#34;utf-8&#34;</span>))
+</span></span><span style="display:flex;"><span>        request_id, info <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>saml_client<span style="color:#f92672">.</span>prepare_for_authenticate(
+</span></span><span style="display:flex;"><span>            relay_state<span style="color:#f92672">=</span>relay_state
+</span></span><span style="display:flex;"><span>        )
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> key, value <span style="color:#f92672">in</span> info[<span style="color:#e6db74">&#34;headers&#34;</span>]:
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> key <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;Location&#34;</span>:
+</span></span><span style="display:flex;"><span>                sso_redirect_url <span style="color:#f92672">=</span> value
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> sso_redirect_url
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">process_saml_response</span>(self, saml_response_data):
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Parse and process the SAML response</span>
+</span></span><span style="display:flex;"><span>        authn_response <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>saml_client<span style="color:#f92672">.</span>parse_authn_request_response(
+</span></span><span style="display:flex;"><span>            saml_response_data,
+</span></span><span style="display:flex;"><span>            BINDING_HTTP_POST,
+</span></span><span style="display:flex;"><span>        )
+</span></span><span style="display:flex;"><span>        authn_response<span style="color:#f92672">.</span>get_identity()
+</span></span><span style="display:flex;"><span>        authn_response<span style="color:#f92672">.</span>get_subject()
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> authn_response
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get_user_info</span>(self, saml_response):
+</span></span><span style="display:flex;"><span>        user_info <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;email&#34;</span>: saml_response<span style="color:#f92672">.</span>ava[<span style="color:#e6db74">&#34;Email&#34;</span>][<span style="color:#ae81ff">0</span>],
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;first_name&#34;</span>: saml_response<span style="color:#f92672">.</span>ava[<span style="color:#e6db74">&#34;Firstname&#34;</span>][<span style="color:#ae81ff">0</span>],
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;last_name&#34;</span>: saml_response<span style="color:#f92672">.</span>ava[<span style="color:#e6db74">&#34;Lastname&#34;</span>][<span style="color:#ae81ff">0</span>],
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> user_info
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">is_logged_in</span>(self, sso_name_id):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> self<span style="color:#f92672">.</span>saml_client<span style="color:#f92672">.</span>is_logged_in(name_id<span style="color:#f92672">=</span>name_id_from_string(sso_name_id))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">logout</span>(self, sso_name_id):
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># local logout. does not logout from azure</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> self<span style="color:#f92672">.</span>saml_client<span style="color:#f92672">.</span>local_logout(name_id<span style="color:#f92672">=</span>name_id_from_string(sso_name_id))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">authenticate_user</span>(self, user_attributes):
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># placeholder to verify user roles etc</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">RequiresLoginException</span>(<span style="color:#a6e22e">Exception</span>):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> __init__(self, redirect_url: str <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>):
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>redirect_url <span style="color:#f92672">=</span> redirect_url
+</span></span><span style="display:flex;"><span>        super()<span style="color:#f92672">.</span>__init__()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get_saml_service</span>():
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> SAMLService()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">is_user_logged_in</span>(request: Request):
+</span></span><span style="display:flex;"><span>    saml_service <span style="color:#f92672">=</span> SAMLService()
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> saml_service<span style="color:#f92672">.</span>is_logged_in(request<span style="color:#f92672">.</span>session[<span style="color:#e6db74">&#34;saml_name_id&#34;</span>]):
+</span></span><span style="display:flex;"><span>        redirect_url <span style="color:#f92672">=</span> str(request<span style="color:#f92672">.</span>url)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">raise</span> RequiresLoginException(redirect_url<span style="color:#f92672">=</span>redirect_url)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> request<span style="color:#f92672">.</span>session[<span style="color:#e6db74">&#34;user_info&#34;</span>]
+</span></span></code></pre></div><p>And the method to load the <code>saml_config</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">load_saml_config</span>():
+</span></span><span style="display:flex;"><span>    settings <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;metadata&#34;</span>: {<span style="color:#e6db74">&#34;local&#34;</span>: [SSO_METADATA_FILEPATH]},
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;service&#34;</span>: {
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;sp&#34;</span>: {
+</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#34;endpoints&#34;</span>: {
+</span></span><span style="display:flex;"><span>                    <span style="color:#e6db74">&#34;assertion_consumer_service&#34;</span>: [
+</span></span><span style="display:flex;"><span>                        (SSO_ASSERTION_CONSUMER_SERVICE_URL, BINDING_HTTP_REDIRECT),
+</span></span><span style="display:flex;"><span>                        (SSO_ASSERTION_CONSUMER_SERVICE_URL, BINDING_HTTP_POST),
+</span></span><span style="display:flex;"><span>                    ],
+</span></span><span style="display:flex;"><span>                },
+</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#34;allow_unsolicited&#34;</span>: <span style="color:#66d9ef">True</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#34;authn_requests_signed&#34;</span>: <span style="color:#66d9ef">False</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#34;logout_requests_signed&#34;</span>: <span style="color:#66d9ef">True</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#34;want_assertions_signed&#34;</span>: <span style="color:#66d9ef">True</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#34;want_response_signed&#34;</span>: <span style="color:#66d9ef">False</span>,
+</span></span><span style="display:flex;"><span>            },
+</span></span><span style="display:flex;"><span>        },
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    saml_config <span style="color:#f92672">=</span> Config()
+</span></span><span style="display:flex;"><span>    saml_config<span style="color:#f92672">.</span>load(settings)
+</span></span><span style="display:flex;"><span>    saml_config<span style="color:#f92672">.</span>allow_unknown_attributes <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>    saml_config<span style="color:#f92672">.</span>entityid <span style="color:#f92672">=</span> SSO_ENTITY_ID
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> saml_config
+</span></span></code></pre></div><p>The <code>load_saml_config</code> method returns a saml config class instance with the settings dict loaded.
+You may find the Assertion Service Url (ACS) in the metadata file. The <code>SSO_ENTITY_ID</code> will be the
+entity id created during the setup on the Azure AD Admin account.</p>
+<p>The <code>prepare_for_authenticate</code> method uses the <code>prepare_for_authenticate</code> method on the saml client class
+to get the <code>request_id</code> and <code>info</code> dictionary back. The <code>header</code> key in the <code>info</code> dict has a <code>Location</code> key
+which has the redirect url with the SAML request. This redirect url is where you will redirect the user to login.
+If you want to preserve the state of the url where the authentication exception originated in the application,
+you can encode it and pass it as a <code>relay_state</code> string in the <code>prepare_for_authenticate</code> method on the saml
+client class. This will be added to the redirect url to azure as a <code>RelayState</code> named param in the redirect url
+which is simply returned back as <code>RelayState</code> paramter in the SAML Response from Azure AD.</p>
+<p>The <code>process_saml_response</code> processes the SAML response recieved from Azure AD after successful login
+and returns a dictionary with the SAML attributes that are returned from Azure. This can include user name,
+email address, etc.</p>
+<p>Other methods are described as defined above. The <code>is_user_logged_in</code> method is used as a check to see
+wether the user is present in the SAML cache and if its still valid. If the user is not valid in the cache,
+a <code>RequiresLoginException</code> is raised which gets bubbled up to the FastAPI app level and then gets handled
+as described after the FastAPI route section below.</p>
+<h2 id="fastapi-routes">FastAPI Routes</h2>
+<p>On the FastAPI side, you can define routes and import the SAMLService class as a dependency using the
+<a href="https://fastapi.tiangolo.com/tutorial/dependencies/">FastAPI Dependency Injection</a> feature. The <code>starlette.status</code>
+class has the http status code literals used below so import those if you want to use them.</p>
+<p>The callback route is where the SAMLResponse comes in after a successful login in Azure AD.</p>
+<p>We also rely on a signed session cookie from the client to store saml attributes and user info.
+Since FastAPI is written on top of Starlette, you can use
+<a href="https://www.starlette.io/middleware/#sessionmiddleware">Starlette&rsquo;s Session Middleware</a>
+feature for this.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@router.get</span>(<span style="color:#e6db74">&#34;/login&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">saml_login</span>(
+</span></span><span style="display:flex;"><span>    redirect_url: str <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>, saml_service: SAMLService <span style="color:#f92672">=</span> Depends(get_saml_service)
+</span></span><span style="display:flex;"><span>):
+</span></span><span style="display:flex;"><span>    authn_request_url <span style="color:#f92672">=</span> saml_service<span style="color:#f92672">.</span>prepare_for_authenticate(redirect_url<span style="color:#f92672">=</span>redirect_url)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> authn_request_url:
+</span></span><span style="display:flex;"><span>        headers <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#34;Cache-Control&#34;</span>: <span style="color:#e6db74">&#34;no-cache, no-store&#34;</span>, <span style="color:#e6db74">&#34;Pragma&#34;</span>: <span style="color:#e6db74">&#34;no-cache&#34;</span>}
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> RedirectResponse(url<span style="color:#f92672">=</span>authn_request_url, headers<span style="color:#f92672">=</span>headers)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">raise</span> HTTPException(status_code<span style="color:#f92672">=</span>HTTP_400_BAD_REQUEST, detail<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Unable to login&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@router.post</span>(<span style="color:#e6db74">&#34;/login/callback&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">saml_callback</span>(
+</span></span><span style="display:flex;"><span>    request: Request, saml_service: SAMLService <span style="color:#f92672">=</span> Depends(get_saml_service)
+</span></span><span style="display:flex;"><span>):
+</span></span><span style="display:flex;"><span>    form_data <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> request<span style="color:#f92672">.</span>form()
+</span></span><span style="display:flex;"><span>    saml_response_data <span style="color:#f92672">=</span> form_data<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;SAMLResponse&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> saml_response_data:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">raise</span> HTTPException(
+</span></span><span style="display:flex;"><span>            status_code<span style="color:#f92672">=</span>HTTP_400_BAD_REQUEST, detail<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;SAMLResponse not found&#34;</span>
+</span></span><span style="display:flex;"><span>        )
+</span></span><span style="display:flex;"><span>    saml_response <span style="color:#f92672">=</span> saml_service<span style="color:#f92672">.</span>process_saml_response(saml_response_data)
+</span></span><span style="display:flex;"><span>    request<span style="color:#f92672">.</span>session[<span style="color:#e6db74">&#34;saml_attributes&#34;</span>] <span style="color:#f92672">=</span> saml_response<span style="color:#f92672">.</span>ava
+</span></span><span style="display:flex;"><span>    request<span style="color:#f92672">.</span>session[<span style="color:#e6db74">&#34;saml_name_id&#34;</span>] <span style="color:#f92672">=</span> str(saml_response<span style="color:#f92672">.</span>name_id)
+</span></span><span style="display:flex;"><span>    request<span style="color:#f92672">.</span>session[<span style="color:#e6db74">&#34;user_info&#34;</span>] <span style="color:#f92672">=</span> saml_service<span style="color:#f92672">.</span>get_user_info(saml_response)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> form_data<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;RelayState&#34;</span>):
+</span></span><span style="display:flex;"><span>        return_path <span style="color:#f92672">=</span> base64<span style="color:#f92672">.</span>b64decode(form_data<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;RelayState&#34;</span>))<span style="color:#f92672">.</span>decode(<span style="color:#e6db74">&#34;utf-8&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> RedirectResponse(return_path, status_code<span style="color:#f92672">=</span>HTTP_303_SEE_OTHER)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> RedirectResponse(<span style="color:#e6db74">&#34;/api/login/user-info&#34;</span>, status_code<span style="color:#f92672">=</span>HTTP_303_SEE_OTHER)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@router.get</span>(<span style="color:#e6db74">&#34;/login/user-info&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">check_user</span>(request: Request):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> is_user_logged_in(request)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@router.get</span>(<span style="color:#e6db74">&#34;/login/logout&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">logout_user</span>(
+</span></span><span style="display:flex;"><span>    request: Request, saml_service: SAMLService <span style="color:#f92672">=</span> Depends(get_saml_service)
+</span></span><span style="display:flex;"><span>):
+</span></span><span style="display:flex;"><span>    saml_name_id <span style="color:#f92672">=</span> request<span style="color:#f92672">.</span>session[<span style="color:#e6db74">&#34;saml_name_id&#34;</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> saml_service<span style="color:#f92672">.</span>logout(saml_name_id):
+</span></span><span style="display:flex;"><span>        request<span style="color:#f92672">.</span>session<span style="color:#f92672">.</span>pop(<span style="color:#e6db74">&#34;saml_attributes&#34;</span>)
+</span></span><span style="display:flex;"><span>        request<span style="color:#f92672">.</span>session<span style="color:#f92672">.</span>pop(<span style="color:#e6db74">&#34;saml_name_id&#34;</span>)
+</span></span><span style="display:flex;"><span>        request<span style="color:#f92672">.</span>session<span style="color:#f92672">.</span>pop(<span style="color:#e6db74">&#34;user_info&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> Response(status_code<span style="color:#f92672">=</span>HTTP_205_RESET_CONTENT)
+</span></span></code></pre></div><p>Handling `RequiresLoginException``:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># in main.py or where ever you define the</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># fastapi app</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@app.exception_handler</span>(RequiresLoginException)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">exception_handler</span>(request: Request, exc: RequiresLoginException) <span style="color:#f92672">-&gt;</span> Response:
+</span></span><span style="display:flex;"><span>    login_path <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;/api/login&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> exc<span style="color:#f92672">.</span>redirect_url:
+</span></span><span style="display:flex;"><span>        login_path <span style="color:#f92672">=</span> (
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>login_path<span style="color:#e6db74">}</span><span style="color:#e6db74">?redirect_url=</span><span style="color:#e6db74">{</span>urllib<span style="color:#f92672">.</span>parse<span style="color:#f92672">.</span>quote_plus(exc<span style="color:#f92672">.</span>redirect_url)<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>        )
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> RedirectResponse(url<span style="color:#f92672">=</span>login_path)
+</span></span></code></pre></div><p>SAML authenticaiton does have a drawback of the inability to authenticate with the Identity Provider
+(Azure AD in this case) without user redirection. If the user has to be redirected for re-authentication
+the request state has to be reserved and can be set using the <code>RelayState</code> parameter.</p>
+
+		</section>
+
+		<div class="post-tags">
+			
+			
+			<nav class="nav tags">
+				<ul class="tags">
+					
+					<li><a href="/tags/python">python</a></li>
+					
+					<li><a href="/tags/sso">sso</a></li>
+					
+					<li><a href="/tags/saml">saml</a></li>
+					
+					<li><a href="/tags/fastapi">fastapi</a></li>
+					
+					<li><a href="/tags/azure">azure</a></li>
+					
+				</ul>
+			</nav>
+			
+			
+		</div>
+		</article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="https://hachyderm.io/@asx" rel="me" title="Mastodon"><i data-feather="radio"></i></a>
+    <a class="border"></a><a class="soc" href="https://www.linkedin.com/in/anurags85/" rel="me" title="Linkedin"><i data-feather="linkedin"></i></a>
+    <a class="border"></a><a class="soc" href="https://github.com/saxenanurag" rel="me" title="GitHub"><i data-feather="github"></i></a>
+    <a class="border"></a></div>
+  <div class="footer-info">
+    2024  © Anurag Saxena |  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
+</footer>
+
+
+<script>
+  feather.replace()
+</script></div>
+    </body>
+</html>

@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Anurag Saxena</copyright>
-    <lastBuildDate>Sun, 16 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Integrate Azure AD SSO with SAML for your FastAPI Application using PySAML2</title>
+      <link>/posts/azure-ad-pysaml2/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/posts/azure-ad-pysaml2/</guid>
+      <description>Recently I had to work on a Azure AD SAML integration for a FastAPI application. I looked around the internet for a how to and stitched together a solution from multiple sources. I am writing this post as a how to on integrating Azure AD SAML SSO into a FastAPI application so that there is a single source for others to use. I am using PySAML2 and I am sure there are better ways to do this but this is how I did it.</description>
+    </item>
     <item>
       <title>pydoc</title>
       <link>/posts/pydoc/</link>
