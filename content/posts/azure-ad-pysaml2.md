@@ -214,7 +214,7 @@ async def logout_user(
         return Response(status_code=HTTP_205_RESET_CONTENT)
 ```
 
-Handling `RequiresLoginException``:
+Handling `RequiresLoginException`:
 
 ```python
 # in main.py or where ever you define the
