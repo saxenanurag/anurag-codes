@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>microsoft on anurags blog</title>
+    <title>microsoft on Anurag&#39;s Blog</title>
     <link>/tags/microsoft/</link>
-    <description>Recent content in microsoft on anurags blog</description>
+    <description>Recent content in microsoft on Anurag&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Anurag Saxena</copyright>
-    <lastBuildDate>Mon, 04 Jun 2018 00:00:00 -0400</lastBuildDate><atom:link href="/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© Anurag Saxena</copyright>
+    <lastBuildDate>Mon, 04 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Microsoft Github Acquisition</title>
-      <link>/post/microsoft-github-acquisition/</link>
-      <pubDate>Mon, 04 Jun 2018 00:00:00 -0400</pubDate>
-      
-      <guid>/post/microsoft-github-acquisition/</guid>
-      <description>Thoughts  $7.5 billion is huge. A big part of that number includes value of open source projects. It is the open source projects that made Github what it is and brought the community together. Github made people recognize their potential, by having their work be shared and collaborated on an open, free platform. $7.5 billion is huge. Microsoft paid good money for this acquisition. I do not know what the ultimate goal is here, but it is an investment into the future of Github, and I am cautiously optimistic - just like a lot of people.</description>
+      <link>/posts/microsoft-github-acquisition/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>/posts/microsoft-github-acquisition/</guid>
+      <description>Thoughts $7.5 billion is huge. A big part of that number includes value of open source projects. It is the open source projects that made Github what it is and brought the community together. Github made people recognize their potential, by having their work be shared and collaborated on an open, free platform. $7.5 billion is huge. Microsoft paid good money for this acquisition. I do not know what the ultimate goal is here, but it is an investment into the future of Github, and I am cautiously optimistic - just like a lot of people.</description>
     </item>
-    
   </channel>
 </rss>

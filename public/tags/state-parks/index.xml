@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>state parks on anurags blog</title>
+    <title>state parks on Anurag&#39;s Blog</title>
     <link>/tags/state-parks/</link>
-    <description>Recent content in state parks on anurags blog</description>
+    <description>Recent content in state parks on Anurag&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Anurag Saxena</copyright>
-    <lastBuildDate>Fri, 28 Sep 2018 00:00:00 -0400</lastBuildDate><atom:link href="/tags/state-parks/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© Anurag Saxena</copyright>
+    <lastBuildDate>Fri, 28 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/state-parks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Camping in Allegany State Park</title>
-      <link>/post/hiking-in-allegany-state-p/</link>
-      <pubDate>Fri, 28 Sep 2018 00:00:00 -0400</pubDate>
-      
-      <guid>/post/hiking-in-allegany-state-p/</guid>
-      <description>Few weeks ago, my wife and I went camping at the Allegany State Park in New York. This is a year round park - meaning that its open all year around for campers and visitors alike.
-The park is huge at 64,800 acres. This was our first time here and we enjoyed the stay. Our cabin faced this tiny creek which was beautiful.
-Being that this park is also bear country, we had to be mindful of our belongings.</description>
+      <link>/posts/hiking-in-allegany-state-p/</link>
+      <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>/posts/hiking-in-allegany-state-p/</guid>
+      <description>Few weeks ago, my wife and I went camping at the Allegany State Park in New York. This is a year round park - meaning that its open all year around for campers and visitors alike.&#xA;The park is huge at 64,800 acres. This was our first time here and we enjoyed the stay. Our cabin faced this tiny creek which was beautiful.&#xA;Being that this park is also bear country, we had to be mindful of our belongings.</description>
     </item>
-    
   </channel>
 </rss>

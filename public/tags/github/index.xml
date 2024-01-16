@@ -1,43 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>github on anurags blog</title>
+    <title>github on Anurag&#39;s Blog</title>
     <link>/tags/github/</link>
-    <description>Recent content in github on anurags blog</description>
+    <description>Recent content in github on Anurag&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Anurag Saxena</copyright>
-    <lastBuildDate>Tue, 24 Jul 2018 00:00:00 -0400</lastBuildDate><atom:link href="/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© Anurag Saxena</copyright>
+    <lastBuildDate>Tue, 24 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git stash</title>
-      <link>/post/git-stash/</link>
-      <pubDate>Tue, 24 Jul 2018 00:00:00 -0400</pubDate>
-      
-      <guid>/post/git-stash/</guid>
+      <link>/posts/git-stash/</link>
+      <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>/posts/git-stash/</guid>
       <description>Git stash allows you to save your changes to a repo, without any commits, and go back to the clean state that your repo was in since the last commit. I use stash when I have to pull changes from origin into my code, but I don&amp;rsquo;t want to commit any of my own changes. Stash allows to manage merge conflicts as well. You can use stash when you want to switch branches.</description>
     </item>
-    
     <item>
       <title>Microsoft Github Acquisition</title>
-      <link>/post/microsoft-github-acquisition/</link>
-      <pubDate>Mon, 04 Jun 2018 00:00:00 -0400</pubDate>
-      
-      <guid>/post/microsoft-github-acquisition/</guid>
-      <description>Thoughts  $7.5 billion is huge. A big part of that number includes value of open source projects. It is the open source projects that made Github what it is and brought the community together. Github made people recognize their potential, by having their work be shared and collaborated on an open, free platform. $7.5 billion is huge. Microsoft paid good money for this acquisition. I do not know what the ultimate goal is here, but it is an investment into the future of Github, and I am cautiously optimistic - just like a lot of people.</description>
+      <link>/posts/microsoft-github-acquisition/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>/posts/microsoft-github-acquisition/</guid>
+      <description>Thoughts $7.5 billion is huge. A big part of that number includes value of open source projects. It is the open source projects that made Github what it is and brought the community together. Github made people recognize their potential, by having their work be shared and collaborated on an open, free platform. $7.5 billion is huge. Microsoft paid good money for this acquisition. I do not know what the ultimate goal is here, but it is an investment into the future of Github, and I am cautiously optimistic - just like a lot of people.</description>
     </item>
-    
     <item>
       <title>How I Merge</title>
-      <link>/post/how-i-merge/</link>
-      <pubDate>Thu, 31 May 2018 00:00:00 -0400</pubDate>
-      
-      <guid>/post/how-i-merge/</guid>
-      <description>Stage the files
-git add &amp;lt;files&amp;gt; Commit the files
-git commit -m &amp;quot;&amp;lt;message subject&amp;gt;&amp;quot; -m &amp;quot;&amp;lt;message body, if needed&amp;gt;&amp;quot; Pull the master
-git pull origin master Merge any conflicts and commit. Then,
-git push origin master Profit!</description>
+      <link>/posts/how-i-merge/</link>
+      <pubDate>Thu, 31 May 2018 00:00:00 +0000</pubDate>
+      <guid>/posts/how-i-merge/</guid>
+      <description>Stage the files&#xA;git add &amp;lt;files&amp;gt; Commit the files&#xA;git commit -m &amp;#34;&amp;lt;message subject&amp;gt;&amp;#34; -m &amp;#34;&amp;lt;message body, if needed&amp;gt;&amp;#34; Pull the master&#xA;git pull origin master Merge any conflicts and commit. Then,&#xA;git push origin master Profit!</description>
     </item>
-    
   </channel>
 </rss>
