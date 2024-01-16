@@ -21,6 +21,11 @@ paginate=3 # articles per page
 # Social Tags
 
 [[params.social]]
+name = "Mastodon"
+icon = "radio"
+url = "https://hachyderm.io/@asx"
+
+[[params.social]]
 name = "Linkedin"
 icon = "linkedin"
 url = "https://www.linkedin.com/in/anurags85/"
