@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>stocks on Anurag&#39;s Blog</title>
+    <title>Stocks on Anurag&#39;s Blog</title>
     <link>/categories/stocks/</link>
-    <description>Recent content in stocks on Anurag&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Stocks on Anurag&#39;s Blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Anurag Saxena</copyright>
     <lastBuildDate>Fri, 02 Nov 2018 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>/posts/invest-in-index-funds-instead-of-stocks/</link>
       <pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
       <guid>/posts/invest-in-index-funds-instead-of-stocks/</guid>
-      <description>You don&amp;rsquo;t have the time or the energy to follow stocks, which ones to invest, which ones to not. When to invest, when to take money out. Instead, invest your money in Index Funds.&#xA;There is a saying that a monkey throwing darts on a board with stocks can beat the market. That is because stock performance is difficult to predict. You can predict overall market easier than individual stock market performance.</description>
+      <description>&lt;p&gt;You don&amp;rsquo;t have the time or the energy to follow stocks, which ones to invest, which ones to not. When to invest, when to take money out. Instead, invest your money in Index Funds.&lt;/p&gt;&#xA;&lt;p&gt;There is a saying that a monkey throwing darts on a board with stocks can beat the market. That is because stock performance is difficult to predict. You can predict overall market easier than individual stock market performance. That is where Index Funds are a better investment.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

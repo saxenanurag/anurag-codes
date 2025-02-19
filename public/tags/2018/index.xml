@@ -4,7 +4,7 @@
     <title>2018 on Anurag&#39;s Blog</title>
     <link>/tags/2018/</link>
     <description>Recent content in 2018 on Anurag&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Anurag Saxena</copyright>
     <lastBuildDate>Mon, 24 Dec 2018 00:00:00 +0000</lastBuildDate>
@@ -14,105 +14,98 @@
       <link>/posts/52-posts-result/</link>
       <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
       <guid>/posts/52-posts-result/</guid>
-      <description>At the end of 2017, I decided to make blogging a part of my life of 2018. I decided that I will be writing 52 posts, which is a post a week. And hence, 52 posts in 52 weeks was born.&#xA;It’s the end of 2018 and I published 18 posts (not counting this post). 18 is less than 52, but better than 0.&#xA;The year started off with a post a week, but I quickly fell behind.</description>
+      <description>&lt;p&gt;At the end of 2017, I decided to make blogging a part of my life of 2018. I decided that I will be writing 52 posts, which is a post a week. And hence, &lt;strong&gt;52 posts in 52 weeks&lt;/strong&gt; was born.&lt;/p&gt;&#xA;&lt;p&gt;It’s the end of 2018 and I published &lt;strong&gt;18 posts&lt;/strong&gt; (not counting this post). 18 is less than 52, but better than 0.&lt;/p&gt;&#xA;&lt;p&gt;The year started off with a post a week, but I quickly fell behind. Part of the reason was motivation, the other is that writing is hard. During this process, I realized that in order to write more, I have to read more. So I started reading more.&lt;/p&gt;</description>
     </item>
     <item>
       <title>TIL: Creating a new file or folder in NerdTree</title>
       <link>/posts/til-creating-a-new-file-or-folder-in-nerdtree/</link>
       <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
       <guid>/posts/til-creating-a-new-file-or-folder-in-nerdtree/</guid>
-      <description>To create a new file or folder in NerdTree, bring up the NerdTree menu by typing m. This brings up a multiple options including:&#xA;(a)dd a childnode (m)ove the current node (d)elete the current node (r)eveal in Finder the current node (o)pen the current node with system editor (q)uicklook the current node (c)opy the current node (l)ist the current node So now you press a and can type in the file name or the folder that you want to create.</description>
+      <description>&lt;p&gt;To create a new file or folder in NerdTree, bring up the NerdTree menu by typing &lt;code&gt;m&lt;/code&gt;. This brings up a multiple options including:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(a)dd a childnode&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(m)ove the current node&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(d)elete the current node&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(r)eveal in Finder the current node&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(o)pen the current node with system editor&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(q)uicklook the current node&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(c)opy the current node&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(l)ist the current node&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;So now you press &lt;code&gt;a&lt;/code&gt; and can type in the file name or the folder that you want to create.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Go Vote</title>
       <link>/posts/go-vote/</link>
       <pubDate>Tue, 06 Nov 2018 00:00:00 +0000</pubDate>
       <guid>/posts/go-vote/</guid>
-      <description>Its Election Day in America. Go Vote.</description>
+      <description>&lt;p&gt;Its Election Day in America. Go Vote.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Invest in Index Funds instead of stocks</title>
       <link>/posts/invest-in-index-funds-instead-of-stocks/</link>
       <pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
       <guid>/posts/invest-in-index-funds-instead-of-stocks/</guid>
-      <description>You don&amp;rsquo;t have the time or the energy to follow stocks, which ones to invest, which ones to not. When to invest, when to take money out. Instead, invest your money in Index Funds.&#xA;There is a saying that a monkey throwing darts on a board with stocks can beat the market. That is because stock performance is difficult to predict. You can predict overall market easier than individual stock market performance.</description>
+      <description>&lt;p&gt;You don&amp;rsquo;t have the time or the energy to follow stocks, which ones to invest, which ones to not. When to invest, when to take money out. Instead, invest your money in Index Funds.&lt;/p&gt;&#xA;&lt;p&gt;There is a saying that a monkey throwing darts on a board with stocks can beat the market. That is because stock performance is difficult to predict. You can predict overall market easier than individual stock market performance. That is where Index Funds are a better investment.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Do the boring thing</title>
       <link>/posts/do-the-boring-thing/</link>
       <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
       <guid>/posts/do-the-boring-thing/</guid>
-      <description>that is all.</description>
+      <description>&lt;p&gt;that is all.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Podcasts I listen to regularly</title>
       <link>/posts/podcasts-i-listen-to-regularly/</link>
       <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
       <guid>/posts/podcasts-i-listen-to-regularly/</guid>
-      <description>Here are the podcasts that I listen to regularly, and recommend to folks who want to listen to something new.&#xA;Up First - NPR - my go to podcast every morning Monday to Friday. Catch up on the top headlines and news for the day in about 13-15 minutes. Freakonomics Radio The Indicator from Planet Money - NPR Pod Save America Radiolab Star Talk Radio - recently started listening to it and loving it.</description>
+      <description>&lt;p&gt;Here are the podcasts that I listen to regularly, and recommend to folks who want to listen to something new.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.npr.org/podcasts/510318/up-first&#34;&gt;Up First - NPR&lt;/a&gt; - my go to podcast every morning Monday to Friday. Catch up on the top headlines and news for the day in about 13-15 minutes.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://freakonomics.com/&#34;&gt;Freakonomics Radio&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.npr.org/podcasts/510325/the-indicator-from-planet-money&#34;&gt;The Indicator from Planet Money - NPR&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://crooked.com/podcast-series/pod-save-america/&#34;&gt;Pod Save America&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.wnycstudios.org/shows/radiolab&#34;&gt;Radiolab&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.startalkradio.net/&#34;&gt;Star Talk Radio&lt;/a&gt; - recently started listening to it and loving it.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.gimletmedia.com/startup&#34;&gt;Startup Podcast&lt;/a&gt; - If you do not know about this podcast, I recommend you start with &lt;a href=&#34;https://www.gimletmedia.com/startup/1-how-not-to-pitch-a-billionaire#episode-player&#34;&gt;Season 1&lt;/a&gt;. Season 1 of this podcast is about how to start a podcasting company.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://tim.blog/podcast/&#34;&gt;Tim Ferriss Show&lt;/a&gt; - top episodes here: &lt;a href=&#34;https://tim.blog/top-10-podcasts/&#34;&gt;https://tim.blog/top-10-podcasts/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;As always Overcast is my go to podcast app. &lt;a href=&#34;https://overcast.fm/&#34;&gt;https://overcast.fm/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>pydoc</title>
       <link>/posts/pydoc/</link>
       <pubDate>Sun, 16 Sep 2018 00:00:00 +0000</pubDate>
       <guid>/posts/pydoc/</guid>
-      <description>I gave a talk recently at the Cleveland Python Meetup on pydoc. Here is the notebook explaining it all: https://github.com/CLEpy/CLEpy-MotM/blob/master/pydoc/pydoc.ipynb</description>
-    </item>
-    <item>
-      <title>Dont wait. Just do it</title>
-      <link>/posts/dont-wait-just-do-it/</link>
-      <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>/posts/dont-wait-just-do-it/</guid>
-      <description>On August 11, 2018, this tweet went out.&#xA;On this day ten years ago, Airbnb launched. pic.twitter.com/UFA7b1weRh&#xA;&amp;mdash; Brian Chesky (@bchesky) August 11, 2018 Look at the screenshot. Look how rudimentary the site looks. Yet AirBnb was started. And now its worth a billion dollars.&#xA;Dont wait for the right idea to come in your head. Just do it. You will fail. But after failure will come success. Just do it.</description>
+      <description>&lt;p&gt;I gave a talk recently at the &lt;a href=&#34;clepy.org&#34;&gt;Cleveland Python Meetup&lt;/a&gt; on pydoc. Here is the notebook explaining it all: &lt;a href=&#34;https://github.com/CLEpy/CLEpy-MotM/blob/master/pydoc/pydoc.ipynb&#34;&gt;https://github.com/CLEpy/CLEpy-MotM/blob/master/pydoc/pydoc.ipynb&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Git stash</title>
       <link>/posts/git-stash/</link>
       <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
       <guid>/posts/git-stash/</guid>
-      <description>Git stash allows you to save your changes to a repo, without any commits, and go back to the clean state that your repo was in since the last commit. I use stash when I have to pull changes from origin into my code, but I don&amp;rsquo;t want to commit any of my own changes. Stash allows to manage merge conflicts as well. You can use stash when you want to switch branches.</description>
+      <description>&lt;p&gt;Git stash allows you to save your changes to a repo, without any commits, and go back to the clean state that your repo was in since the last commit. I use stash when I have to pull changes from origin into my code, but I don&amp;rsquo;t want to commit any of my own changes. Stash allows to manage merge conflicts as well. You can use stash when you want to switch branches.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Microsoft Github Acquisition</title>
       <link>/posts/microsoft-github-acquisition/</link>
       <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
       <guid>/posts/microsoft-github-acquisition/</guid>
-      <description>Thoughts $7.5 billion is huge. A big part of that number includes value of open source projects. It is the open source projects that made Github what it is and brought the community together. Github made people recognize their potential, by having their work be shared and collaborated on an open, free platform. $7.5 billion is huge. Microsoft paid good money for this acquisition. I do not know what the ultimate goal is here, but it is an investment into the future of Github, and I am cautiously optimistic - just like a lot of people.</description>
+      <description>&lt;h2 id=&#34;thoughts&#34;&gt;Thoughts&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;$7.5 billion is huge. A big part of that number includes value of open source projects. It is the open source projects that made Github what it is and brought the community together. Github made people recognize their potential, by having their work be shared and collaborated on an open, free platform.&lt;/li&gt;&#xA;&lt;li&gt;$7.5 billion is huge. Microsoft paid good money for this acquisition. I do not know what the ultimate goal is here, but it is an investment into the future of Github, and I am cautiously optimistic - just like a lot of people.&lt;/li&gt;&#xA;&lt;li&gt;$7.5 billion is huge. Github is built on Ruby on Rails, which is an open source framework. Github is a Hub for Git (get it!). Git is an open source version control system.&lt;/li&gt;&#xA;&lt;li&gt;$7.5 billion is huge. A note on Ruby on Rails - It doesn&amp;rsquo;t matter what you use as long as you get the task done. In case of Github, it is Ruby on Rails. If you remember Trello ($425 million acquisition by Atlassian), its a jQuery Drag and Drop app. In the beginning, tools dont have to be the fastest. Tools have to just work. You can worry about speed later.&lt;/li&gt;&#xA;&lt;li&gt;$7.5 billion is just huge. That is all.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>How I Merge</title>
       <link>/posts/how-i-merge/</link>
       <pubDate>Thu, 31 May 2018 00:00:00 +0000</pubDate>
       <guid>/posts/how-i-merge/</guid>
-      <description>Stage the files&#xA;git add &amp;lt;files&amp;gt; Commit the files&#xA;git commit -m &amp;#34;&amp;lt;message subject&amp;gt;&amp;#34; -m &amp;#34;&amp;lt;message body, if needed&amp;gt;&amp;#34; Pull the master&#xA;git pull origin master Merge any conflicts and commit. Then,&#xA;git push origin master Profit!</description>
+      <description>&lt;p&gt;Stage the files&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git add &amp;lt;files&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Commit the files&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git commit -m &amp;#34;&amp;lt;message subject&amp;gt;&amp;#34; -m &amp;#34;&amp;lt;message body, if needed&amp;gt;&amp;#34;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Pull the master&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git pull origin master&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Merge any conflicts and commit. Then,&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push origin master&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Profit!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Facebook</title>
       <link>/posts/facebook/</link>
       <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
       <guid>/posts/facebook/</guid>
-      <description>I joined facebook in 2007. Before that, I used to interact with friends on Orkut. I joined facebook because my friends told me to.&#xA;Facebook was quite innocent when I joined. I was friends with people on Facebook that I was friends in real life, and I would see them every now and then, if not more. Then pages came along, and I started liking facebook pages. Friends started to invite me to like a page, and I would do the same.</description>
+      <description>&lt;p&gt;I joined facebook in 2007. Before that, I used to interact with friends on &lt;a href=&#34;https://en.wikipedia.org/wiki/Orkut&#34;&gt;Orkut&lt;/a&gt;. I joined facebook because my friends told me to.&lt;/p&gt;&#xA;&lt;p&gt;Facebook was quite innocent when I joined. I was friends with people on Facebook that I was friends in real life, and I would see them every now and then, if not more. Then pages came along, and I started liking facebook pages. Friends started to invite me to like a page, and I would do the same. People started sharing articles, news, from sources that were not always credible. Cookies started tracking information everywhere outside of facebook. Facebook made it super easy to share any web page on facebook - there is a button on top of this page to do the same. Apps started using facebook as a login, and in return for the convenience of not having to create another username and password, that you have to remember, we happily agreed to share our facebook profile with apps. Games that looked innocent on the surface asked for permission to use our facebook data, and post on the wall on our behalf, and we happily, explicitly, gave consent.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Longing for a consumer upgradable Macbook Pro</title>
       <link>/posts/longing-for-a-consumer-upgradable-macbook-pro/</link>
       <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
       <guid>/posts/longing-for-a-consumer-upgradable-macbook-pro/</guid>
-      <description>My first Macbook was a 2011 Macbook Pro (MC700LL/A). It came with a 4GB of RAM and 320 GB HDD. After 1.5 years of use, I was able to upgrade the RAM to 8GB and swap out the HDD for a 512 GB SSD. The performance upgrade was life changing. The effort was minimal. Just unscrew the back panel using a precision philips screwdriver and with little knowledge, one can swap out the RAM and HDD/SSD.</description>
+      <description>&lt;p&gt;My first Macbook was a 2011 Macbook Pro &lt;a href=&#34;https://support.apple.com/kb/SP619?locale=en_US&#34;&gt;(MC700LL/A)&lt;/a&gt;. It came with a 4GB of RAM and 320 GB HDD. After 1.5 years of use, I was able to upgrade the RAM to 8GB and swap out the HDD for a 512 GB SSD. The performance upgrade was life changing. The effort was minimal. Just unscrew the back panel using a precision philips screwdriver and with little knowledge, one can swap out the RAM and HDD/SSD.&lt;/p&gt;</description>
     </item>
     <item>
       <title>I switched to Ghost</title>
       <link>/posts/i-switched-to-ghost/</link>
       <pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate>
       <guid>/posts/i-switched-to-ghost/</guid>
-      <description>As you can see, I switched to ghost. If you go to my first post, I talked about how I wanted to use posthaven and how it is great.&#xA;I am using posthaven over medium, or blogger, or wordpress, is because of its simplicity. You can read much about posthaven here: https://posthaven.com/ . It has an easy posting format, lets me use my own domain and I can even email my posts.</description>
+      <description>&lt;p&gt;As you can see, I switched to &lt;a href=&#34;https://ghost.org/&#34;&gt;ghost&lt;/a&gt;. If you go to my &lt;a href=&#34;https://anurag.codes/52-posts-in-52-weeks-atleast/&#34;&gt;first post&lt;/a&gt;, I talked about how I wanted to use posthaven and how it is great.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;I am using posthaven over medium, or blogger, or wordpress, is because of its simplicity. You can read much about posthaven here: &lt;a href=&#34;https://posthaven.com/&#34;&gt;https://posthaven.com/&lt;/a&gt; . It has an easy posting format, lets me use my own domain and I can even email my posts. I don’t have to think about it much. Its simple!&lt;/p&gt;</description>
     </item>
     <item>
       <title>When to not use an ad blocker</title>
       <link>/posts/when-to-not-use-an-ad-blocker/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       <guid>/posts/when-to-not-use-an-ad-blocker/</guid>
-      <description>I use an ad-blocker on my browsers. Its called ad-block plus.&#xA;The good part of using an ad-blocker is that it blocks the ads on the sites I visit. It also helps with blocking malware, spam, and cookies that track over websites (you know how when you search for shoes on zappos and then that shoe ad shows up on every website you visit).&#xA;The bad part of using an ad-blocker is that there are websites that are solely run, or are majorly dependent on ad revenue.</description>
+      <description>&lt;p&gt;I use an ad-blocker on my browsers. Its called &lt;a href=&#34;https://adblockplus.org/&#34;&gt;ad-block plus&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The good part of using an ad-blocker is that it blocks the ads on the sites I visit. It also helps with blocking malware, spam, and cookies that track over websites (you know how when you search for shoes on zappos and then that shoe ad shows up on every website you visit).&lt;/p&gt;&#xA;&lt;p&gt;The bad part of using an ad-blocker is that there are websites that are solely run, or are majorly dependent on ad revenue. Such websites lose on that revenue when my ad-blocker instance blocks their ads.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

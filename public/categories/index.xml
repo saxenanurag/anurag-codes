@@ -4,7 +4,7 @@
     <title>Categories on Anurag&#39;s Blog</title>
     <link>/categories/</link>
     <description>Recent content in Categories on Anurag&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Anurag Saxena</copyright>
     <lastBuildDate>Thu, 27 Jun 2019 00:00:00 +0000</lastBuildDate>
@@ -17,14 +17,14 @@
       <description></description>
     </item>
     <item>
-      <title>apps</title>
+      <title>Apps</title>
       <link>/categories/apps/</link>
       <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
       <guid>/categories/apps/</guid>
       <description></description>
     </item>
     <item>
-      <title>passwords</title>
+      <title>Passwords</title>
       <link>/categories/passwords/</link>
       <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
       <guid>/categories/passwords/</guid>
@@ -45,196 +45,189 @@
       <description></description>
     </item>
     <item>
-      <title>justdoit</title>
+      <title>Justdoit</title>
       <link>/categories/justdoit/</link>
       <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
       <guid>/categories/justdoit/</guid>
       <description></description>
     </item>
     <item>
-      <title>lazy</title>
+      <title>Lazy</title>
       <link>/categories/lazy/</link>
       <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
       <guid>/categories/lazy/</guid>
       <description></description>
     </item>
     <item>
-      <title>motivation</title>
+      <title>Motivation</title>
       <link>/categories/motivation/</link>
       <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
       <guid>/categories/motivation/</guid>
       <description></description>
     </item>
     <item>
-      <title>thoughts</title>
+      <title>Thoughts</title>
       <link>/categories/thoughts/</link>
       <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
       <guid>/categories/thoughts/</guid>
       <description></description>
     </item>
     <item>
-      <title>code</title>
+      <title>Code</title>
       <link>/categories/code/</link>
       <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
       <guid>/categories/code/</guid>
       <description></description>
     </item>
     <item>
-      <title>til</title>
+      <title>Til</title>
       <link>/categories/til/</link>
       <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
       <guid>/categories/til/</guid>
       <description></description>
     </item>
     <item>
-      <title>vim</title>
+      <title>Vim</title>
       <link>/categories/vim/</link>
       <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
       <guid>/categories/vim/</guid>
       <description></description>
     </item>
     <item>
-      <title>vote</title>
+      <title>Vote</title>
       <link>/categories/vote/</link>
       <pubDate>Tue, 06 Nov 2018 00:00:00 +0000</pubDate>
       <guid>/categories/vote/</guid>
       <description></description>
     </item>
     <item>
-      <title>investments</title>
+      <title>Investments</title>
       <link>/categories/investments/</link>
       <pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
       <guid>/categories/investments/</guid>
       <description></description>
     </item>
     <item>
-      <title>stocks</title>
+      <title>Stocks</title>
       <link>/categories/stocks/</link>
       <pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
       <guid>/categories/stocks/</guid>
       <description></description>
     </item>
     <item>
-      <title>musings</title>
+      <title>Musings</title>
       <link>/categories/musings/</link>
       <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
       <guid>/categories/musings/</guid>
       <description></description>
     </item>
     <item>
-      <title>podcasts</title>
+      <title>Podcasts</title>
       <link>/categories/podcasts/</link>
       <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
       <guid>/categories/podcasts/</guid>
       <description></description>
     </item>
     <item>
-      <title>ios</title>
+      <title>Ios</title>
       <link>/categories/ios/</link>
       <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
       <guid>/categories/ios/</guid>
       <description></description>
     </item>
     <item>
-      <title>allegany</title>
+      <title>Allegany</title>
       <link>/categories/allegany/</link>
       <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
       <guid>/categories/allegany/</guid>
       <description></description>
     </item>
     <item>
-      <title>cabin</title>
+      <title>Cabin</title>
       <link>/categories/cabin/</link>
       <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
       <guid>/categories/cabin/</guid>
       <description></description>
     </item>
     <item>
-      <title>hiking</title>
+      <title>Hiking</title>
       <link>/categories/hiking/</link>
       <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
       <guid>/categories/hiking/</guid>
       <description></description>
     </item>
     <item>
-      <title>nature</title>
+      <title>Nature</title>
       <link>/categories/nature/</link>
       <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
       <guid>/categories/nature/</guid>
       <description></description>
     </item>
     <item>
-      <title>state parks</title>
+      <title>State Parks</title>
       <link>/categories/state-parks/</link>
       <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
       <guid>/categories/state-parks/</guid>
       <description></description>
     </item>
     <item>
-      <title>travel</title>
+      <title>Travel</title>
       <link>/categories/travel/</link>
       <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
       <guid>/categories/travel/</guid>
       <description></description>
     </item>
     <item>
-      <title>python</title>
+      <title>Python</title>
       <link>/categories/python/</link>
       <pubDate>Sun, 16 Sep 2018 00:00:00 +0000</pubDate>
       <guid>/categories/python/</guid>
       <description></description>
     </item>
     <item>
-      <title>airbnb</title>
-      <link>/categories/airbnb/</link>
-      <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/airbnb/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>git</title>
+      <title>Git</title>
       <link>/categories/git/</link>
       <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
       <guid>/categories/git/</guid>
       <description></description>
     </item>
     <item>
-      <title>github</title>
+      <title>Github</title>
       <link>/categories/github/</link>
       <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
       <guid>/categories/github/</guid>
       <description></description>
     </item>
     <item>
-      <title>microsoft</title>
+      <title>Microsoft</title>
       <link>/categories/microsoft/</link>
       <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
       <guid>/categories/microsoft/</guid>
       <description></description>
     </item>
     <item>
-      <title>macbook</title>
+      <title>Macbook</title>
       <link>/categories/macbook/</link>
       <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
       <guid>/categories/macbook/</guid>
       <description></description>
     </item>
     <item>
-      <title>ghost</title>
+      <title>Ghost</title>
       <link>/categories/ghost/</link>
       <pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate>
       <guid>/categories/ghost/</guid>
       <description></description>
     </item>
     <item>
-      <title>adblocker</title>
+      <title>Adblocker</title>
       <link>/categories/adblocker/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       <guid>/categories/adblocker/</guid>
       <description></description>
     </item>
     <item>
-      <title>ads</title>
+      <title>Ads</title>
       <link>/categories/ads/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       <guid>/categories/ads/</guid>
@@ -248,7 +241,7 @@
       <description></description>
     </item>
     <item>
-      <title>firstpost</title>
+      <title>Firstpost</title>
       <link>/categories/firstpost/</link>
       <pubDate>Tue, 19 Dec 2017 00:00:00 +0000</pubDate>
       <guid>/categories/firstpost/</guid>

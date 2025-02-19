@@ -4,32 +4,32 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Integrate Azure AD SSO with SAML for your FastAPI Application using PySAML2 - Anurag&#39;s Blog</title><meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="How to add Azure AD SSO with SAML for your FastAPI Application" />
 	<meta property="og:image" content=""/>
-	<meta property="og:title" content="Integrate Azure AD SSO with SAML for your FastAPI Application using PySAML2" />
-<meta property="og:description" content="How to add Azure AD SSO with SAML for your FastAPI Application" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/azure-ad-pysaml2/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-01-15T00:00:00+00:00" />
-<meta property="article:modified_time" content="2024-01-15T00:00:00+00:00" />
+	<meta property="og:url" content="/posts/azure-ad-pysaml2/">
+  <meta property="og:site_name" content="Anurag&#39;s Blog">
+  <meta property="og:title" content="Integrate Azure AD SSO with SAML for your FastAPI Application using PySAML2">
+  <meta property="og:description" content="How to add Azure AD SSO with SAML for your FastAPI Application">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-01-15T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-01-15T00:00:00+00:00">
+    <meta property="article:tag" content="Python">
+    <meta property="article:tag" content="Sso">
+    <meta property="article:tag" content="Saml">
+    <meta property="article:tag" content="Fastapi">
+    <meta property="article:tag" content="Azure">
 
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Integrate Azure AD SSO with SAML for your FastAPI Application using PySAML2"/>
-<meta name="twitter:description" content="How to add Azure AD SSO with SAML for your FastAPI Application"/>
-<script src="/js/feather.min.js"></script>
-	
-	
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Integrate Azure AD SSO with SAML for your FastAPI Application using PySAML2">
+  <meta name="twitter:description" content="How to add Azure AD SSO with SAML for your FastAPI Application">
+
         <link href="/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
 	
 
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
-		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css" media="(prefers-color-scheme: dark)"  />
-	
-
-	
-	
-		<script type="text/javascript"
-		src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-		</script>
-	
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/main.6a0f23ea50fd34b46fee262a5a68e17d458c51a2bc99ba1ba018065de6b180c3.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="/css/dark.50b57e12d401420df23965fed157368aba37b76df0ecefd0b1ecd4da664f01a0.css" media="(prefers-color-scheme: dark)"  /><script type="text/javascript"
+		src="/js/MathJax.js"></script>
 		
 		<script type="text/x-mathjax-config">
 		MathJax.Hub.Config({
@@ -43,15 +43,9 @@
 						 extensions: ["AMSmath.js", "AMSsymbols.js"] }
 			}
 		});
-		</script>
-	
-
-	
-	
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css">
-		<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js"></script>
-		<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
-		
+		</script><link rel="stylesheet" href="/katex/katex.min.css ">
+		<script defer src="/katex/katex.min.js"></script>
+		<script defer src="/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
 		
 		<script>
 			document.addEventListener("DOMContentLoaded", function() {
@@ -62,10 +56,7 @@
 							]
 					});
 			});
-			</script>
-	
-	
-	
+		</script>
 </head>
 <body>
         <div class="content"><header>
@@ -87,15 +78,17 @@
 </header>
 
 <main>
-	<article>
-		<div class="title">
-			<h1 class="title">Integrate Azure AD SSO with SAML for your FastAPI Application using PySAML2</h1>
-			<div class="meta">Posted on Jan 15, 2024</div>
-		</div>
-		
-
-		<section class="body">
-			<p>Recently I had to work on a Azure AD SAML integration for a FastAPI application.
+  <article>
+    <div class="post-container">
+      
+      <div class="post-content">
+        <div class="title">
+          <h1 class="title">Integrate Azure AD SSO with SAML for your FastAPI Application using PySAML2</h1>
+          <div class="meta">Posted on Jan 15, 2024</div>
+        </div>
+        
+        <section class="body">
+          <p>Recently I had to work on a Azure AD SAML integration for a FastAPI application.
 I looked around the internet for a how to and stitched together a solution from
 multiple sources. I am writing this post as a how to on integrating Azure AD SAML
 SSO into a FastAPI application so that there is a single source for others to use.
@@ -279,7 +272,7 @@ feature for this.</p>
 </span></span><span style="display:flex;"><span>        request<span style="color:#f92672">.</span>session<span style="color:#f92672">.</span>pop(<span style="color:#e6db74">&#34;saml_name_id&#34;</span>)
 </span></span><span style="display:flex;"><span>        request<span style="color:#f92672">.</span>session<span style="color:#f92672">.</span>pop(<span style="color:#e6db74">&#34;user_info&#34;</span>)
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> Response(status_code<span style="color:#f92672">=</span>HTTP_205_RESET_CONTENT)
-</span></span></code></pre></div><p>Handling `RequiresLoginException``:</p>
+</span></span></code></pre></div><p>Handling <code>RequiresLoginException</code>:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># in main.py or where ever you define the</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># fastapi app</span>
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">@app.exception_handler</span>(RequiresLoginException)
@@ -294,45 +287,52 @@ feature for this.</p>
 (Azure AD in this case) without user redirection. If the user has to be redirected for re-authentication
 the request state has to be reserved and can be set using the <code>RelayState</code> parameter.</p>
 
-		</section>
+        </section>
+        <div class="post-tags">
+          
+          
+          <nav class="nav tags">
+            <ul class="tags">
+              
+              <li><a href="/tags/python">python</a></li>
+              
+              <li><a href="/tags/sso">sso</a></li>
+              
+              <li><a href="/tags/saml">saml</a></li>
+              
+              <li><a href="/tags/fastapi">fastapi</a></li>
+              
+              <li><a href="/tags/azure">azure</a></li>
+              
+            </ul>
+          </nav>
+          
+          
+        </div>
+      </div>
 
-		<div class="post-tags">
-			
-			
-			<nav class="nav tags">
-				<ul class="tags">
-					
-					<li><a href="/tags/python">python</a></li>
-					
-					<li><a href="/tags/sso">sso</a></li>
-					
-					<li><a href="/tags/saml">saml</a></li>
-					
-					<li><a href="/tags/fastapi">fastapi</a></li>
-					
-					<li><a href="/tags/azure">azure</a></li>
-					
-				</ul>
-			</nav>
-			
-			
-		</div>
-		</article>
+      
+      
+    </div>
+
+    </article>
 </main>
 <footer>
-  <div style="display:flex"><a class="soc" href="https://hachyderm.io/@asx" rel="me" title="Mastodon"><i data-feather="radio"></i></a>
-    <a class="border"></a><a class="soc" href="https://www.linkedin.com/in/anurags85/" rel="me" title="Linkedin"><i data-feather="linkedin"></i></a>
-    <a class="border"></a><a class="soc" href="https://github.com/saxenanurag" rel="me" title="GitHub"><i data-feather="github"></i></a>
-    <a class="border"></a></div>
+  <div style="display:flex"><a class="soc" href="https://hachyderm.io/@asx" rel="me" title="Mastodon"><svg class="feather">
+   <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#radio" />
+</svg></a><a class="border"></a><a class="soc" href="https://www.linkedin.com/in/anurags85/" rel="me" title="Linkedin"><svg class="feather">
+   <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#linkedin" />
+</svg></a><a class="border"></a><a class="soc" href="https://github.com/saxenanurag" rel="me" title="GitHub"><svg class="feather">
+   <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#github" />
+</svg></a><a class="border"></a></div>
   <div class="footer-info">
-    2024  © Anurag Saxena |  <a
+    2025  © Anurag Saxena |  <a
       href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
   </div>
 </footer>
 
 
-<script>
-  feather.replace()
-</script></div>
+
+</div>
     </body>
 </html>

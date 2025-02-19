@@ -4,7 +4,7 @@
     <title>2019 on Anurag&#39;s Blog</title>
     <link>/categories/2019/</link>
     <description>Recent content in 2019 on Anurag&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Anurag Saxena</copyright>
     <lastBuildDate>Thu, 27 Jun 2019 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>/posts/passwords-should-be-disposable/</link>
       <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
       <guid>/posts/passwords-should-be-disposable/</guid>
-      <description>Passwords should be long - as long as you want to make them. The longer the password, the bigger its entropy. Mathematically, guessing the password sallysallysally will take longer computing time than sally. Websites or apps that ask for 8-16 character passwords should not be asking for a max character limit of passwords. Instead they should encourage users to create long passwords. Also, do not restrict the user to only use certain special characters - let them use all of them.</description>
+      <description>&lt;p&gt;Passwords should be long - as long as you want to make them. The longer the password, the bigger its entropy. Mathematically, guessing the password &lt;em&gt;sallysallysally&lt;/em&gt; will take longer computing time than &lt;em&gt;sally.&lt;/em&gt; Websites or apps that ask for 8-16 character passwords should not be asking for a max character limit of passwords. Instead they should encourage users to create long passwords. Also, do not restrict the user to only use certain special characters - let them use all of them.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

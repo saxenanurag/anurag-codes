@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>airbnb on Anurag&#39;s Blog</title>
+    <title>Airbnb on Anurag&#39;s Blog</title>
     <link>/tags/airbnb/</link>
-    <description>Recent content in airbnb on Anurag&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Airbnb on Anurag&#39;s Blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Anurag Saxena</copyright>
     <lastBuildDate>Mon, 13 Aug 2018 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>/posts/dont-wait-just-do-it/</link>
       <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
       <guid>/posts/dont-wait-just-do-it/</guid>
-      <description>On August 11, 2018, this tweet went out.&#xA;On this day ten years ago, Airbnb launched. pic.twitter.com/UFA7b1weRh&#xA;&amp;mdash; Brian Chesky (@bchesky) August 11, 2018 Look at the screenshot. Look how rudimentary the site looks. Yet AirBnb was started. And now its worth a billion dollars.&#xA;Dont wait for the right idea to come in your head. Just do it. You will fail. But after failure will come success. Just do it.</description>
+      <description>&lt;p&gt;On August 11, 2018, this tweet went out.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Look at the screenshot. Look how rudimentary the site looks. Yet AirBnb was started. And now its worth a billion dollars.&lt;/p&gt;&#xA;&lt;p&gt;Dont wait for the right idea to come in your head. Just do it. You will fail. But after failure will come success. Just do it.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

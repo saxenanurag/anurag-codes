@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>python on Anurag&#39;s Blog</title>
+    <title>Python on Anurag&#39;s Blog</title>
     <link>/tags/python/</link>
-    <description>Recent content in python on Anurag&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Python on Anurag&#39;s Blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Anurag Saxena</copyright>
     <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
@@ -14,14 +14,14 @@
       <link>/posts/azure-ad-pysaml2/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
       <guid>/posts/azure-ad-pysaml2/</guid>
-      <description>Recently I had to work on a Azure AD SAML integration for a FastAPI application. I looked around the internet for a how to and stitched together a solution from multiple sources. I am writing this post as a how to on integrating Azure AD SAML SSO into a FastAPI application so that there is a single source for others to use. I am using PySAML2 and I am sure there are better ways to do this but this is how I did it.</description>
+      <description>&lt;p&gt;Recently I had to work on a Azure AD SAML integration for a FastAPI application.&#xA;I looked around the internet for a how to and stitched together a solution from&#xA;multiple sources. I am writing this post as a how to on integrating Azure AD SAML&#xA;SSO into a FastAPI application so that there is a single source for others to use.&#xA;I am using PySAML2 and I am sure there are better ways to do this but this is how&#xA;I did it. This integration is written for a FastAPI application but since PySAML2 is&#xA;a library seperate from the Web Framework being used, you could use this as a guide&#xA;to integrate PySAML2 with Flask etc.&lt;/p&gt;</description>
     </item>
     <item>
       <title>pydoc</title>
       <link>/posts/pydoc/</link>
       <pubDate>Sun, 16 Sep 2018 00:00:00 +0000</pubDate>
       <guid>/posts/pydoc/</guid>
-      <description>I gave a talk recently at the Cleveland Python Meetup on pydoc. Here is the notebook explaining it all: https://github.com/CLEpy/CLEpy-MotM/blob/master/pydoc/pydoc.ipynb</description>
+      <description>&lt;p&gt;I gave a talk recently at the &lt;a href=&#34;clepy.org&#34;&gt;Cleveland Python Meetup&lt;/a&gt; on pydoc. Here is the notebook explaining it all: &lt;a href=&#34;https://github.com/CLEpy/CLEpy-MotM/blob/master/pydoc/pydoc.ipynb&#34;&gt;https://github.com/CLEpy/CLEpy-MotM/blob/master/pydoc/pydoc.ipynb&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

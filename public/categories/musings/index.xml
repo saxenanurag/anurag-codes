@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>musings on Anurag&#39;s Blog</title>
+    <title>Musings on Anurag&#39;s Blog</title>
     <link>/categories/musings/</link>
-    <description>Recent content in musings on Anurag&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Musings on Anurag&#39;s Blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Anurag Saxena</copyright>
     <lastBuildDate>Thu, 01 Nov 2018 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>/posts/do-the-boring-thing/</link>
       <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
       <guid>/posts/do-the-boring-thing/</guid>
-      <description>that is all.</description>
+      <description>&lt;p&gt;that is all.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

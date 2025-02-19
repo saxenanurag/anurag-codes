@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>apps on Anurag&#39;s Blog</title>
+    <title>Apps on Anurag&#39;s Blog</title>
     <link>/tags/apps/</link>
-    <description>Recent content in apps on Anurag&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Apps on Anurag&#39;s Blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Anurag Saxena</copyright>
     <lastBuildDate>Thu, 27 Jun 2019 00:00:00 +0000</lastBuildDate>
@@ -14,21 +14,21 @@
       <link>/posts/passwords-should-be-disposable/</link>
       <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
       <guid>/posts/passwords-should-be-disposable/</guid>
-      <description>Passwords should be long - as long as you want to make them. The longer the password, the bigger its entropy. Mathematically, guessing the password sallysallysally will take longer computing time than sally. Websites or apps that ask for 8-16 character passwords should not be asking for a max character limit of passwords. Instead they should encourage users to create long passwords. Also, do not restrict the user to only use certain special characters - let them use all of them.</description>
+      <description>&lt;p&gt;Passwords should be long - as long as you want to make them. The longer the password, the bigger its entropy. Mathematically, guessing the password &lt;em&gt;sallysallysally&lt;/em&gt; will take longer computing time than &lt;em&gt;sally.&lt;/em&gt; Websites or apps that ask for 8-16 character passwords should not be asking for a max character limit of passwords. Instead they should encourage users to create long passwords. Also, do not restrict the user to only use certain special characters - let them use all of them.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Podcasts I listen to regularly</title>
       <link>/posts/podcasts-i-listen-to-regularly/</link>
       <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
       <guid>/posts/podcasts-i-listen-to-regularly/</guid>
-      <description>Here are the podcasts that I listen to regularly, and recommend to folks who want to listen to something new.&#xA;Up First - NPR - my go to podcast every morning Monday to Friday. Catch up on the top headlines and news for the day in about 13-15 minutes. Freakonomics Radio The Indicator from Planet Money - NPR Pod Save America Radiolab Star Talk Radio - recently started listening to it and loving it.</description>
+      <description>&lt;p&gt;Here are the podcasts that I listen to regularly, and recommend to folks who want to listen to something new.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.npr.org/podcasts/510318/up-first&#34;&gt;Up First - NPR&lt;/a&gt; - my go to podcast every morning Monday to Friday. Catch up on the top headlines and news for the day in about 13-15 minutes.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://freakonomics.com/&#34;&gt;Freakonomics Radio&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.npr.org/podcasts/510325/the-indicator-from-planet-money&#34;&gt;The Indicator from Planet Money - NPR&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://crooked.com/podcast-series/pod-save-america/&#34;&gt;Pod Save America&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.wnycstudios.org/shows/radiolab&#34;&gt;Radiolab&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.startalkradio.net/&#34;&gt;Star Talk Radio&lt;/a&gt; - recently started listening to it and loving it.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.gimletmedia.com/startup&#34;&gt;Startup Podcast&lt;/a&gt; - If you do not know about this podcast, I recommend you start with &lt;a href=&#34;https://www.gimletmedia.com/startup/1-how-not-to-pitch-a-billionaire#episode-player&#34;&gt;Season 1&lt;/a&gt;. Season 1 of this podcast is about how to start a podcasting company.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://tim.blog/podcast/&#34;&gt;Tim Ferriss Show&lt;/a&gt; - top episodes here: &lt;a href=&#34;https://tim.blog/top-10-podcasts/&#34;&gt;https://tim.blog/top-10-podcasts/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;As always Overcast is my go to podcast app. &lt;a href=&#34;https://overcast.fm/&#34;&gt;https://overcast.fm/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Overcast.fm</title>
       <link>/posts/overcast-fm/</link>
       <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
       <guid>/posts/overcast-fm/</guid>
-      <description>Overcast is a podcast player that is available on iOS to listen to podcasts. I have been using overcast since 2015 and I have loved it. I stopped using it and switched to the stock Podcasts app on iOS for a minute when I could not get the podcasts on my watch, but then I switched back when watchOS allowed for Overcast to play podcasts directly on the Apple Watch - which is a game changer for me.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://overcast.fm/&#34;&gt;Overcast&lt;/a&gt; is a podcast player that is available on iOS to listen to podcasts. I have been using overcast since 2015 and I have loved it. I stopped using it and switched to the stock Podcasts app on iOS for a minute when I could not get the podcasts on my watch, but then I switched back when watchOS allowed for Overcast to play podcasts directly on the Apple Watch - which is a game changer for me.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

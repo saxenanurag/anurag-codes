@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>azure on Anurag&#39;s Blog</title>
+    <title>Azure on Anurag&#39;s Blog</title>
     <link>/tags/azure/</link>
-    <description>Recent content in azure on Anurag&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Azure on Anurag&#39;s Blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Anurag Saxena</copyright>
     <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>/posts/azure-ad-pysaml2/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
       <guid>/posts/azure-ad-pysaml2/</guid>
-      <description>Recently I had to work on a Azure AD SAML integration for a FastAPI application. I looked around the internet for a how to and stitched together a solution from multiple sources. I am writing this post as a how to on integrating Azure AD SAML SSO into a FastAPI application so that there is a single source for others to use. I am using PySAML2 and I am sure there are better ways to do this but this is how I did it.</description>
+      <description>&lt;p&gt;Recently I had to work on a Azure AD SAML integration for a FastAPI application.&#xA;I looked around the internet for a how to and stitched together a solution from&#xA;multiple sources. I am writing this post as a how to on integrating Azure AD SAML&#xA;SSO into a FastAPI application so that there is a single source for others to use.&#xA;I am using PySAML2 and I am sure there are better ways to do this but this is how&#xA;I did it. This integration is written for a FastAPI application but since PySAML2 is&#xA;a library seperate from the Web Framework being used, you could use this as a guide&#xA;to integrate PySAML2 with Flask etc.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

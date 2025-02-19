@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ios on Anurag&#39;s Blog</title>
+    <title>Ios on Anurag&#39;s Blog</title>
     <link>/tags/ios/</link>
-    <description>Recent content in ios on Anurag&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Ios on Anurag&#39;s Blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Anurag Saxena</copyright>
     <lastBuildDate>Mon, 22 Oct 2018 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>/posts/overcast-fm/</link>
       <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
       <guid>/posts/overcast-fm/</guid>
-      <description>Overcast is a podcast player that is available on iOS to listen to podcasts. I have been using overcast since 2015 and I have loved it. I stopped using it and switched to the stock Podcasts app on iOS for a minute when I could not get the podcasts on my watch, but then I switched back when watchOS allowed for Overcast to play podcasts directly on the Apple Watch - which is a game changer for me.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://overcast.fm/&#34;&gt;Overcast&lt;/a&gt; is a podcast player that is available on iOS to listen to podcasts. I have been using overcast since 2015 and I have loved it. I stopped using it and switched to the stock Podcasts app on iOS for a minute when I could not get the podcasts on my watch, but then I switched back when watchOS allowed for Overcast to play podcasts directly on the Apple Watch - which is a game changer for me.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
