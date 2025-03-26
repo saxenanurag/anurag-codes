@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vote on Anurag&#39;s Blog</title>
-    <link>/tags/vote/</link>
+    <link>//localhost:1313/tags/vote/</link>
     <description>Recent content in Vote on Anurag&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Anurag Saxena</copyright>
     <lastBuildDate>Tue, 06 Nov 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/vote/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/vote/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go Vote</title>
-      <link>/posts/go-vote/</link>
+      <link>//localhost:1313/posts/go-vote/</link>
       <pubDate>Tue, 06 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/posts/go-vote/</guid>
+      <guid>//localhost:1313/posts/go-vote/</guid>
       <description>&lt;p&gt;Its Election Day in America. Go Vote.&lt;/p&gt;</description>
     </item>
   </channel>

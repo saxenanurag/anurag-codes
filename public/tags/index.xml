@@ -2,277 +2,277 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Anurag&#39;s Blog</title>
-    <link>/tags/</link>
+    <link>//localhost:1313/tags/</link>
     <description>Recent content in Tags on Anurag&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Anurag Saxena</copyright>
     <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Azure</title>
-      <link>/tags/azure/</link>
+      <link>//localhost:1313/tags/azure/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>/tags/azure/</guid>
+      <guid>//localhost:1313/tags/azure/</guid>
       <description></description>
     </item>
     <item>
       <title>Fastapi</title>
-      <link>/tags/fastapi/</link>
+      <link>//localhost:1313/tags/fastapi/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>/tags/fastapi/</guid>
+      <guid>//localhost:1313/tags/fastapi/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>/tags/python/</link>
+      <link>//localhost:1313/tags/python/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>/tags/python/</guid>
+      <guid>//localhost:1313/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Saml</title>
-      <link>/tags/saml/</link>
+      <link>//localhost:1313/tags/saml/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>/tags/saml/</guid>
+      <guid>//localhost:1313/tags/saml/</guid>
       <description></description>
     </item>
     <item>
       <title>Sso</title>
-      <link>/tags/sso/</link>
+      <link>//localhost:1313/tags/sso/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>/tags/sso/</guid>
+      <guid>//localhost:1313/tags/sso/</guid>
       <description></description>
     </item>
     <item>
       <title>2019</title>
-      <link>/tags/2019/</link>
+      <link>//localhost:1313/tags/2019/</link>
       <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/2019/</guid>
+      <guid>//localhost:1313/tags/2019/</guid>
       <description></description>
     </item>
     <item>
       <title>Apps</title>
-      <link>/tags/apps/</link>
+      <link>//localhost:1313/tags/apps/</link>
       <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/apps/</guid>
+      <guid>//localhost:1313/tags/apps/</guid>
       <description></description>
     </item>
     <item>
       <title>Passwords</title>
-      <link>/tags/passwords/</link>
+      <link>//localhost:1313/tags/passwords/</link>
       <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/passwords/</guid>
+      <guid>//localhost:1313/tags/passwords/</guid>
       <description></description>
     </item>
     <item>
       <title>2018</title>
-      <link>/tags/2018/</link>
+      <link>//localhost:1313/tags/2018/</link>
       <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/2018/</guid>
+      <guid>//localhost:1313/tags/2018/</guid>
       <description></description>
     </item>
     <item>
       <title>52p52w</title>
-      <link>/tags/52p52w/</link>
+      <link>//localhost:1313/tags/52p52w/</link>
       <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/52p52w/</guid>
+      <guid>//localhost:1313/tags/52p52w/</guid>
       <description></description>
     </item>
     <item>
       <title>Justdoit</title>
-      <link>/tags/justdoit/</link>
+      <link>//localhost:1313/tags/justdoit/</link>
       <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/justdoit/</guid>
+      <guid>//localhost:1313/tags/justdoit/</guid>
       <description></description>
     </item>
     <item>
       <title>Lazy</title>
-      <link>/tags/lazy/</link>
+      <link>//localhost:1313/tags/lazy/</link>
       <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/lazy/</guid>
+      <guid>//localhost:1313/tags/lazy/</guid>
       <description></description>
     </item>
     <item>
       <title>Motivation</title>
-      <link>/tags/motivation/</link>
+      <link>//localhost:1313/tags/motivation/</link>
       <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/motivation/</guid>
+      <guid>//localhost:1313/tags/motivation/</guid>
       <description></description>
     </item>
     <item>
       <title>Thoughts</title>
-      <link>/tags/thoughts/</link>
+      <link>//localhost:1313/tags/thoughts/</link>
       <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/thoughts/</guid>
+      <guid>//localhost:1313/tags/thoughts/</guid>
       <description></description>
     </item>
     <item>
       <title>Code</title>
-      <link>/tags/code/</link>
+      <link>//localhost:1313/tags/code/</link>
       <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/code/</guid>
+      <guid>//localhost:1313/tags/code/</guid>
       <description></description>
     </item>
     <item>
       <title>Til</title>
-      <link>/tags/til/</link>
+      <link>//localhost:1313/tags/til/</link>
       <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/til/</guid>
+      <guid>//localhost:1313/tags/til/</guid>
       <description></description>
     </item>
     <item>
       <title>Vim</title>
-      <link>/tags/vim/</link>
+      <link>//localhost:1313/tags/vim/</link>
       <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/vim/</guid>
+      <guid>//localhost:1313/tags/vim/</guid>
       <description></description>
     </item>
     <item>
       <title>Vote</title>
-      <link>/tags/vote/</link>
+      <link>//localhost:1313/tags/vote/</link>
       <pubDate>Tue, 06 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/vote/</guid>
+      <guid>//localhost:1313/tags/vote/</guid>
       <description></description>
     </item>
     <item>
       <title>Investments</title>
-      <link>/tags/investments/</link>
+      <link>//localhost:1313/tags/investments/</link>
       <pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/investments/</guid>
+      <guid>//localhost:1313/tags/investments/</guid>
       <description></description>
     </item>
     <item>
       <title>Stocks</title>
-      <link>/tags/stocks/</link>
+      <link>//localhost:1313/tags/stocks/</link>
       <pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/stocks/</guid>
+      <guid>//localhost:1313/tags/stocks/</guid>
       <description></description>
     </item>
     <item>
       <title>Musings</title>
-      <link>/tags/musings/</link>
+      <link>//localhost:1313/tags/musings/</link>
       <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/musings/</guid>
+      <guid>//localhost:1313/tags/musings/</guid>
       <description></description>
     </item>
     <item>
       <title>Podcasts</title>
-      <link>/tags/podcasts/</link>
+      <link>//localhost:1313/tags/podcasts/</link>
       <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/podcasts/</guid>
+      <guid>//localhost:1313/tags/podcasts/</guid>
       <description></description>
     </item>
     <item>
       <title>Ios</title>
-      <link>/tags/ios/</link>
+      <link>//localhost:1313/tags/ios/</link>
       <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/ios/</guid>
+      <guid>//localhost:1313/tags/ios/</guid>
       <description></description>
     </item>
     <item>
       <title>Allegany</title>
-      <link>/tags/allegany/</link>
+      <link>//localhost:1313/tags/allegany/</link>
       <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/allegany/</guid>
+      <guid>//localhost:1313/tags/allegany/</guid>
       <description></description>
     </item>
     <item>
       <title>Cabin</title>
-      <link>/tags/cabin/</link>
+      <link>//localhost:1313/tags/cabin/</link>
       <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/cabin/</guid>
+      <guid>//localhost:1313/tags/cabin/</guid>
       <description></description>
     </item>
     <item>
       <title>Hiking</title>
-      <link>/tags/hiking/</link>
+      <link>//localhost:1313/tags/hiking/</link>
       <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/hiking/</guid>
+      <guid>//localhost:1313/tags/hiking/</guid>
       <description></description>
     </item>
     <item>
       <title>Nature</title>
-      <link>/tags/nature/</link>
+      <link>//localhost:1313/tags/nature/</link>
       <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/nature/</guid>
+      <guid>//localhost:1313/tags/nature/</guid>
       <description></description>
     </item>
     <item>
       <title>State Parks</title>
-      <link>/tags/state-parks/</link>
+      <link>//localhost:1313/tags/state-parks/</link>
       <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/state-parks/</guid>
+      <guid>//localhost:1313/tags/state-parks/</guid>
       <description></description>
     </item>
     <item>
       <title>Travel</title>
-      <link>/tags/travel/</link>
+      <link>//localhost:1313/tags/travel/</link>
       <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/travel/</guid>
+      <guid>//localhost:1313/tags/travel/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>/tags/git/</link>
+      <link>//localhost:1313/tags/git/</link>
       <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/git/</guid>
+      <guid>//localhost:1313/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>Github</title>
-      <link>/tags/github/</link>
+      <link>//localhost:1313/tags/github/</link>
       <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/github/</guid>
+      <guid>//localhost:1313/tags/github/</guid>
       <description></description>
     </item>
     <item>
       <title>Microsoft</title>
-      <link>/tags/microsoft/</link>
+      <link>//localhost:1313/tags/microsoft/</link>
       <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/microsoft/</guid>
+      <guid>//localhost:1313/tags/microsoft/</guid>
       <description></description>
     </item>
     <item>
       <title>Macbook</title>
-      <link>/tags/macbook/</link>
+      <link>//localhost:1313/tags/macbook/</link>
       <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/macbook/</guid>
+      <guid>//localhost:1313/tags/macbook/</guid>
       <description></description>
     </item>
     <item>
       <title>Ghost</title>
-      <link>/tags/ghost/</link>
+      <link>//localhost:1313/tags/ghost/</link>
       <pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/ghost/</guid>
+      <guid>//localhost:1313/tags/ghost/</guid>
       <description></description>
     </item>
     <item>
       <title>Adblocker</title>
-      <link>/tags/adblocker/</link>
+      <link>//localhost:1313/tags/adblocker/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/adblocker/</guid>
+      <guid>//localhost:1313/tags/adblocker/</guid>
       <description></description>
     </item>
     <item>
       <title>Ads</title>
-      <link>/tags/ads/</link>
+      <link>//localhost:1313/tags/ads/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/ads/</guid>
+      <guid>//localhost:1313/tags/ads/</guid>
       <description></description>
     </item>
     <item>
       <title>2017</title>
-      <link>/tags/2017/</link>
+      <link>//localhost:1313/tags/2017/</link>
       <pubDate>Tue, 19 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>/tags/2017/</guid>
+      <guid>//localhost:1313/tags/2017/</guid>
       <description></description>
     </item>
     <item>
       <title>Firstpost</title>
-      <link>/tags/firstpost/</link>
+      <link>//localhost:1313/tags/firstpost/</link>
       <pubDate>Tue, 19 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>/tags/firstpost/</guid>
+      <guid>//localhost:1313/tags/firstpost/</guid>
       <description></description>
     </item>
   </channel>

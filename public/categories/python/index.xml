@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on Anurag&#39;s Blog</title>
-    <link>/categories/python/</link>
+    <link>//localhost:1313/categories/python/</link>
     <description>Recent content in Python on Anurag&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Anurag Saxena</copyright>
     <lastBuildDate>Sun, 16 Sep 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>pydoc</title>
-      <link>/posts/pydoc/</link>
+      <link>//localhost:1313/posts/pydoc/</link>
       <pubDate>Sun, 16 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/posts/pydoc/</guid>
+      <guid>//localhost:1313/posts/pydoc/</guid>
       <description>&lt;p&gt;I gave a talk recently at the &lt;a href=&#34;clepy.org&#34;&gt;Cleveland Python Meetup&lt;/a&gt; on pydoc. Here is the notebook explaining it all: &lt;a href=&#34;https://github.com/CLEpy/CLEpy-MotM/blob/master/pydoc/pydoc.ipynb&#34;&gt;https://github.com/CLEpy/CLEpy-MotM/blob/master/pydoc/pydoc.ipynb&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>

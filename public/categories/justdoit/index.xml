@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Justdoit on Anurag&#39;s Blog</title>
-    <link>/categories/justdoit/</link>
+    <link>//localhost:1313/categories/justdoit/</link>
     <description>Recent content in Justdoit on Anurag&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Anurag Saxena</copyright>
     <lastBuildDate>Mon, 24 Dec 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/categories/justdoit/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/justdoit/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>52 posts in 52 weeks: result</title>
-      <link>/posts/52-posts-result/</link>
+      <link>//localhost:1313/posts/52-posts-result/</link>
       <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/posts/52-posts-result/</guid>
+      <guid>//localhost:1313/posts/52-posts-result/</guid>
       <description>&lt;p&gt;At the end of 2017, I decided to make blogging a part of my life of 2018. I decided that I will be writing 52 posts, which is a post a week. And hence, &lt;strong&gt;52 posts in 52 weeks&lt;/strong&gt; was born.&lt;/p&gt;&#xA;&lt;p&gt;It’s the end of 2018 and I published &lt;strong&gt;18 posts&lt;/strong&gt; (not counting this post). 18 is less than 52, but better than 0.&lt;/p&gt;&#xA;&lt;p&gt;The year started off with a post a week, but I quickly fell behind. Part of the reason was motivation, the other is that writing is hard. During this process, I realized that in order to write more, I have to read more. So I started reading more.&lt;/p&gt;</description>
     </item>
   </channel>

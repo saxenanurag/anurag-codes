@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Thoughts on Anurag&#39;s Blog</title>
-    <link>/categories/thoughts/</link>
+    <link>//localhost:1313/categories/thoughts/</link>
     <description>Recent content in Thoughts on Anurag&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Anurag Saxena</copyright>
     <lastBuildDate>Mon, 24 Dec 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/categories/thoughts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/thoughts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>52 posts in 52 weeks: result</title>
-      <link>/posts/52-posts-result/</link>
+      <link>//localhost:1313/posts/52-posts-result/</link>
       <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/posts/52-posts-result/</guid>
+      <guid>//localhost:1313/posts/52-posts-result/</guid>
       <description>&lt;p&gt;At the end of 2017, I decided to make blogging a part of my life of 2018. I decided that I will be writing 52 posts, which is a post a week. And hence, &lt;strong&gt;52 posts in 52 weeks&lt;/strong&gt; was born.&lt;/p&gt;&#xA;&lt;p&gt;It’s the end of 2018 and I published &lt;strong&gt;18 posts&lt;/strong&gt; (not counting this post). 18 is less than 52, but better than 0.&lt;/p&gt;&#xA;&lt;p&gt;The year started off with a post a week, but I quickly fell behind. Part of the reason was motivation, the other is that writing is hard. During this process, I realized that in order to write more, I have to read more. So I started reading more.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Invest in Index Funds instead of stocks</title>
-      <link>/posts/invest-in-index-funds-instead-of-stocks/</link>
+      <link>//localhost:1313/posts/invest-in-index-funds-instead-of-stocks/</link>
       <pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/posts/invest-in-index-funds-instead-of-stocks/</guid>
+      <guid>//localhost:1313/posts/invest-in-index-funds-instead-of-stocks/</guid>
       <description>&lt;p&gt;You don&amp;rsquo;t have the time or the energy to follow stocks, which ones to invest, which ones to not. When to invest, when to take money out. Instead, invest your money in Index Funds.&lt;/p&gt;&#xA;&lt;p&gt;There is a saying that a monkey throwing darts on a board with stocks can beat the market. That is because stock performance is difficult to predict. You can predict overall market easier than individual stock market performance. That is where Index Funds are a better investment.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Do the boring thing</title>
-      <link>/posts/do-the-boring-thing/</link>
+      <link>//localhost:1313/posts/do-the-boring-thing/</link>
       <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/posts/do-the-boring-thing/</guid>
+      <guid>//localhost:1313/posts/do-the-boring-thing/</guid>
       <description>&lt;p&gt;that is all.&lt;/p&gt;</description>
     </item>
   </channel>

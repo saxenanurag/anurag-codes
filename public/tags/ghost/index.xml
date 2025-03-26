@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ghost on Anurag&#39;s Blog</title>
-    <link>/tags/ghost/</link>
+    <link>//localhost:1313/tags/ghost/</link>
     <description>Recent content in Ghost on Anurag&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Anurag Saxena</copyright>
     <lastBuildDate>Thu, 22 Feb 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/ghost/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/ghost/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>I switched to Ghost</title>
-      <link>/posts/i-switched-to-ghost/</link>
+      <link>//localhost:1313/posts/i-switched-to-ghost/</link>
       <pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>/posts/i-switched-to-ghost/</guid>
+      <guid>//localhost:1313/posts/i-switched-to-ghost/</guid>
       <description>&lt;p&gt;As you can see, I switched to &lt;a href=&#34;https://ghost.org/&#34;&gt;ghost&lt;/a&gt;. If you go to my &lt;a href=&#34;https://anurag.codes/52-posts-in-52-weeks-atleast/&#34;&gt;first post&lt;/a&gt;, I talked about how I wanted to use posthaven and how it is great.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;I am using posthaven over medium, or blogger, or wordpress, is because of its simplicity. You can read much about posthaven here: &lt;a href=&#34;https://posthaven.com/&#34;&gt;https://posthaven.com/&lt;/a&gt; . It has an easy posting format, lets me use my own domain and I can even email my posts. I don’t have to think about it much. Its simple!&lt;/p&gt;</description>
     </item>
   </channel>

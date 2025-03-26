@@ -2,249 +2,249 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Anurag&#39;s Blog</title>
-    <link>/categories/</link>
+    <link>//localhost:1313/categories/</link>
     <description>Recent content in Categories on Anurag&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Anurag Saxena</copyright>
     <lastBuildDate>Thu, 27 Jun 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2019</title>
-      <link>/categories/2019/</link>
+      <link>//localhost:1313/categories/2019/</link>
       <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/categories/2019/</guid>
+      <guid>//localhost:1313/categories/2019/</guid>
       <description></description>
     </item>
     <item>
       <title>Apps</title>
-      <link>/categories/apps/</link>
+      <link>//localhost:1313/categories/apps/</link>
       <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/categories/apps/</guid>
+      <guid>//localhost:1313/categories/apps/</guid>
       <description></description>
     </item>
     <item>
       <title>Passwords</title>
-      <link>/categories/passwords/</link>
+      <link>//localhost:1313/categories/passwords/</link>
       <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/categories/passwords/</guid>
+      <guid>//localhost:1313/categories/passwords/</guid>
       <description></description>
     </item>
     <item>
       <title>2018</title>
-      <link>/categories/2018/</link>
+      <link>//localhost:1313/categories/2018/</link>
       <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/2018/</guid>
+      <guid>//localhost:1313/categories/2018/</guid>
       <description></description>
     </item>
     <item>
       <title>52p52w</title>
-      <link>/categories/52p52w/</link>
+      <link>//localhost:1313/categories/52p52w/</link>
       <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/52p52w/</guid>
+      <guid>//localhost:1313/categories/52p52w/</guid>
       <description></description>
     </item>
     <item>
       <title>Justdoit</title>
-      <link>/categories/justdoit/</link>
+      <link>//localhost:1313/categories/justdoit/</link>
       <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/justdoit/</guid>
+      <guid>//localhost:1313/categories/justdoit/</guid>
       <description></description>
     </item>
     <item>
       <title>Lazy</title>
-      <link>/categories/lazy/</link>
+      <link>//localhost:1313/categories/lazy/</link>
       <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/lazy/</guid>
+      <guid>//localhost:1313/categories/lazy/</guid>
       <description></description>
     </item>
     <item>
       <title>Motivation</title>
-      <link>/categories/motivation/</link>
+      <link>//localhost:1313/categories/motivation/</link>
       <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/motivation/</guid>
+      <guid>//localhost:1313/categories/motivation/</guid>
       <description></description>
     </item>
     <item>
       <title>Thoughts</title>
-      <link>/categories/thoughts/</link>
+      <link>//localhost:1313/categories/thoughts/</link>
       <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/thoughts/</guid>
+      <guid>//localhost:1313/categories/thoughts/</guid>
       <description></description>
     </item>
     <item>
       <title>Code</title>
-      <link>/categories/code/</link>
+      <link>//localhost:1313/categories/code/</link>
       <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/code/</guid>
+      <guid>//localhost:1313/categories/code/</guid>
       <description></description>
     </item>
     <item>
       <title>Til</title>
-      <link>/categories/til/</link>
+      <link>//localhost:1313/categories/til/</link>
       <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/til/</guid>
+      <guid>//localhost:1313/categories/til/</guid>
       <description></description>
     </item>
     <item>
       <title>Vim</title>
-      <link>/categories/vim/</link>
+      <link>//localhost:1313/categories/vim/</link>
       <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/vim/</guid>
+      <guid>//localhost:1313/categories/vim/</guid>
       <description></description>
     </item>
     <item>
       <title>Vote</title>
-      <link>/categories/vote/</link>
+      <link>//localhost:1313/categories/vote/</link>
       <pubDate>Tue, 06 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/vote/</guid>
+      <guid>//localhost:1313/categories/vote/</guid>
       <description></description>
     </item>
     <item>
       <title>Investments</title>
-      <link>/categories/investments/</link>
+      <link>//localhost:1313/categories/investments/</link>
       <pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/investments/</guid>
+      <guid>//localhost:1313/categories/investments/</guid>
       <description></description>
     </item>
     <item>
       <title>Stocks</title>
-      <link>/categories/stocks/</link>
+      <link>//localhost:1313/categories/stocks/</link>
       <pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/stocks/</guid>
+      <guid>//localhost:1313/categories/stocks/</guid>
       <description></description>
     </item>
     <item>
       <title>Musings</title>
-      <link>/categories/musings/</link>
+      <link>//localhost:1313/categories/musings/</link>
       <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/musings/</guid>
+      <guid>//localhost:1313/categories/musings/</guid>
       <description></description>
     </item>
     <item>
       <title>Podcasts</title>
-      <link>/categories/podcasts/</link>
+      <link>//localhost:1313/categories/podcasts/</link>
       <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/podcasts/</guid>
+      <guid>//localhost:1313/categories/podcasts/</guid>
       <description></description>
     </item>
     <item>
       <title>Ios</title>
-      <link>/categories/ios/</link>
+      <link>//localhost:1313/categories/ios/</link>
       <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/ios/</guid>
+      <guid>//localhost:1313/categories/ios/</guid>
       <description></description>
     </item>
     <item>
       <title>Allegany</title>
-      <link>/categories/allegany/</link>
+      <link>//localhost:1313/categories/allegany/</link>
       <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/allegany/</guid>
+      <guid>//localhost:1313/categories/allegany/</guid>
       <description></description>
     </item>
     <item>
       <title>Cabin</title>
-      <link>/categories/cabin/</link>
+      <link>//localhost:1313/categories/cabin/</link>
       <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/cabin/</guid>
+      <guid>//localhost:1313/categories/cabin/</guid>
       <description></description>
     </item>
     <item>
       <title>Hiking</title>
-      <link>/categories/hiking/</link>
+      <link>//localhost:1313/categories/hiking/</link>
       <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/hiking/</guid>
+      <guid>//localhost:1313/categories/hiking/</guid>
       <description></description>
     </item>
     <item>
       <title>Nature</title>
-      <link>/categories/nature/</link>
+      <link>//localhost:1313/categories/nature/</link>
       <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/nature/</guid>
+      <guid>//localhost:1313/categories/nature/</guid>
       <description></description>
     </item>
     <item>
       <title>State Parks</title>
-      <link>/categories/state-parks/</link>
+      <link>//localhost:1313/categories/state-parks/</link>
       <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/state-parks/</guid>
+      <guid>//localhost:1313/categories/state-parks/</guid>
       <description></description>
     </item>
     <item>
       <title>Travel</title>
-      <link>/categories/travel/</link>
+      <link>//localhost:1313/categories/travel/</link>
       <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/travel/</guid>
+      <guid>//localhost:1313/categories/travel/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>/categories/python/</link>
+      <link>//localhost:1313/categories/python/</link>
       <pubDate>Sun, 16 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/python/</guid>
+      <guid>//localhost:1313/categories/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>/categories/git/</link>
+      <link>//localhost:1313/categories/git/</link>
       <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/git/</guid>
+      <guid>//localhost:1313/categories/git/</guid>
       <description></description>
     </item>
     <item>
       <title>Github</title>
-      <link>/categories/github/</link>
+      <link>//localhost:1313/categories/github/</link>
       <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/github/</guid>
+      <guid>//localhost:1313/categories/github/</guid>
       <description></description>
     </item>
     <item>
       <title>Microsoft</title>
-      <link>/categories/microsoft/</link>
+      <link>//localhost:1313/categories/microsoft/</link>
       <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/microsoft/</guid>
+      <guid>//localhost:1313/categories/microsoft/</guid>
       <description></description>
     </item>
     <item>
       <title>Macbook</title>
-      <link>/categories/macbook/</link>
+      <link>//localhost:1313/categories/macbook/</link>
       <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/macbook/</guid>
+      <guid>//localhost:1313/categories/macbook/</guid>
       <description></description>
     </item>
     <item>
       <title>Ghost</title>
-      <link>/categories/ghost/</link>
+      <link>//localhost:1313/categories/ghost/</link>
       <pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/ghost/</guid>
+      <guid>//localhost:1313/categories/ghost/</guid>
       <description></description>
     </item>
     <item>
       <title>Adblocker</title>
-      <link>/categories/adblocker/</link>
+      <link>//localhost:1313/categories/adblocker/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/adblocker/</guid>
+      <guid>//localhost:1313/categories/adblocker/</guid>
       <description></description>
     </item>
     <item>
       <title>Ads</title>
-      <link>/categories/ads/</link>
+      <link>//localhost:1313/categories/ads/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/ads/</guid>
+      <guid>//localhost:1313/categories/ads/</guid>
       <description></description>
     </item>
     <item>
       <title>2017</title>
-      <link>/categories/2017/</link>
+      <link>//localhost:1313/categories/2017/</link>
       <pubDate>Tue, 19 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>/categories/2017/</guid>
+      <guid>//localhost:1313/categories/2017/</guid>
       <description></description>
     </item>
     <item>
       <title>Firstpost</title>
-      <link>/categories/firstpost/</link>
+      <link>//localhost:1313/categories/firstpost/</link>
       <pubDate>Tue, 19 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>/categories/firstpost/</guid>
+      <guid>//localhost:1313/categories/firstpost/</guid>
       <description></description>
     </item>
   </channel>

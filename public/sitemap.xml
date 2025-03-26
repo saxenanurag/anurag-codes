@@ -2,292 +2,292 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/azure/</loc>
+    <loc>//localhost:1313/tags/azure/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/fastapi/</loc>
+    <loc>//localhost:1313/tags/fastapi/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/azure-ad-pysaml2/</loc>
+    <loc>//localhost:1313/posts/azure-ad-pysaml2/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>//localhost:1313/posts/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/python/</loc>
+    <loc>//localhost:1313/tags/python/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/saml/</loc>
+    <loc>//localhost:1313/tags/saml/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/sso/</loc>
+    <loc>//localhost:1313/tags/sso/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/about/</loc>
+    <loc>//localhost:1313/about/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/2019/</loc>
+    <loc>//localhost:1313/tags/2019/</loc>
     <lastmod>2019-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/2019/</loc>
+    <loc>//localhost:1313/categories/2019/</loc>
     <lastmod>2019-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/apps/</loc>
+    <loc>//localhost:1313/tags/apps/</loc>
     <lastmod>2019-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/apps/</loc>
+    <loc>//localhost:1313/categories/apps/</loc>
     <lastmod>2019-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
     <lastmod>2019-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/passwords/</loc>
+    <loc>//localhost:1313/tags/passwords/</loc>
     <lastmod>2019-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/passwords/</loc>
+    <loc>//localhost:1313/categories/passwords/</loc>
     <lastmod>2019-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/passwords-should-be-disposable/</loc>
+    <loc>//localhost:1313/posts/passwords-should-be-disposable/</loc>
     <lastmod>2019-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/2018/</loc>
+    <loc>//localhost:1313/tags/2018/</loc>
     <lastmod>2018-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/2018/</loc>
+    <loc>//localhost:1313/categories/2018/</loc>
     <lastmod>2018-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/52-posts-result/</loc>
+    <loc>//localhost:1313/posts/52-posts-result/</loc>
     <lastmod>2018-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/52p52w/</loc>
+    <loc>//localhost:1313/tags/52p52w/</loc>
     <lastmod>2018-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/52p52w/</loc>
+    <loc>//localhost:1313/categories/52p52w/</loc>
     <lastmod>2018-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/justdoit/</loc>
+    <loc>//localhost:1313/tags/justdoit/</loc>
     <lastmod>2018-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/justdoit/</loc>
+    <loc>//localhost:1313/categories/justdoit/</loc>
     <lastmod>2018-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/lazy/</loc>
+    <loc>//localhost:1313/tags/lazy/</loc>
     <lastmod>2018-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/lazy/</loc>
+    <loc>//localhost:1313/categories/lazy/</loc>
     <lastmod>2018-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/motivation/</loc>
+    <loc>//localhost:1313/tags/motivation/</loc>
     <lastmod>2018-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/motivation/</loc>
+    <loc>//localhost:1313/categories/motivation/</loc>
     <lastmod>2018-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/thoughts/</loc>
+    <loc>//localhost:1313/tags/thoughts/</loc>
     <lastmod>2018-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/thoughts/</loc>
+    <loc>//localhost:1313/categories/thoughts/</loc>
     <lastmod>2018-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/code/</loc>
+    <loc>//localhost:1313/tags/code/</loc>
     <lastmod>2018-11-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/code/</loc>
+    <loc>//localhost:1313/categories/code/</loc>
     <lastmod>2018-11-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/til/</loc>
+    <loc>//localhost:1313/tags/til/</loc>
     <lastmod>2018-11-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/til/</loc>
+    <loc>//localhost:1313/categories/til/</loc>
     <lastmod>2018-11-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/til-creating-a-new-file-or-folder-in-nerdtree/</loc>
+    <loc>//localhost:1313/posts/til-creating-a-new-file-or-folder-in-nerdtree/</loc>
     <lastmod>2018-11-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/vim/</loc>
+    <loc>//localhost:1313/tags/vim/</loc>
     <lastmod>2018-11-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/vim/</loc>
+    <loc>//localhost:1313/categories/vim/</loc>
     <lastmod>2018-11-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/go-vote/</loc>
+    <loc>//localhost:1313/posts/go-vote/</loc>
     <lastmod>2018-11-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/vote/</loc>
+    <loc>//localhost:1313/tags/vote/</loc>
     <lastmod>2018-11-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/vote/</loc>
+    <loc>//localhost:1313/categories/vote/</loc>
     <lastmod>2018-11-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/invest-in-index-funds-instead-of-stocks/</loc>
+    <loc>//localhost:1313/posts/invest-in-index-funds-instead-of-stocks/</loc>
     <lastmod>2018-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/investments/</loc>
+    <loc>//localhost:1313/tags/investments/</loc>
     <lastmod>2018-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/investments/</loc>
+    <loc>//localhost:1313/categories/investments/</loc>
     <lastmod>2018-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/stocks/</loc>
+    <loc>//localhost:1313/tags/stocks/</loc>
     <lastmod>2018-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/stocks/</loc>
+    <loc>//localhost:1313/categories/stocks/</loc>
     <lastmod>2018-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/do-the-boring-thing/</loc>
+    <loc>//localhost:1313/posts/do-the-boring-thing/</loc>
     <lastmod>2018-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/musings/</loc>
+    <loc>//localhost:1313/tags/musings/</loc>
     <lastmod>2018-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/musings/</loc>
+    <loc>//localhost:1313/categories/musings/</loc>
     <lastmod>2018-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/podcasts/</loc>
+    <loc>//localhost:1313/tags/podcasts/</loc>
     <lastmod>2018-10-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/podcasts/</loc>
+    <loc>//localhost:1313/categories/podcasts/</loc>
     <lastmod>2018-10-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/podcasts-i-listen-to-regularly/</loc>
+    <loc>//localhost:1313/posts/podcasts-i-listen-to-regularly/</loc>
     <lastmod>2018-10-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/ios/</loc>
+    <loc>//localhost:1313/tags/ios/</loc>
     <lastmod>2018-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/ios/</loc>
+    <loc>//localhost:1313/categories/ios/</loc>
     <lastmod>2018-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/overcast-fm/</loc>
+    <loc>//localhost:1313/posts/overcast-fm/</loc>
     <lastmod>2018-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/allegany/</loc>
+    <loc>//localhost:1313/tags/allegany/</loc>
     <lastmod>2018-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/allegany/</loc>
+    <loc>//localhost:1313/categories/allegany/</loc>
     <lastmod>2018-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/cabin/</loc>
+    <loc>//localhost:1313/tags/cabin/</loc>
     <lastmod>2018-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/cabin/</loc>
+    <loc>//localhost:1313/categories/cabin/</loc>
     <lastmod>2018-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/hiking-in-allegany-state-p/</loc>
+    <loc>//localhost:1313/posts/hiking-in-allegany-state-p/</loc>
     <lastmod>2018-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/hiking/</loc>
+    <loc>//localhost:1313/tags/hiking/</loc>
     <lastmod>2018-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/hiking/</loc>
+    <loc>//localhost:1313/categories/hiking/</loc>
     <lastmod>2018-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/nature/</loc>
+    <loc>//localhost:1313/tags/nature/</loc>
     <lastmod>2018-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/nature/</loc>
+    <loc>//localhost:1313/categories/nature/</loc>
     <lastmod>2018-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/state-parks/</loc>
+    <loc>//localhost:1313/tags/state-parks/</loc>
     <lastmod>2018-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/state-parks/</loc>
+    <loc>//localhost:1313/categories/state-parks/</loc>
     <lastmod>2018-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/travel/</loc>
+    <loc>//localhost:1313/tags/travel/</loc>
     <lastmod>2018-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/travel/</loc>
+    <loc>//localhost:1313/categories/travel/</loc>
     <lastmod>2018-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/pydoc/</loc>
+    <loc>//localhost:1313/posts/pydoc/</loc>
     <lastmod>2018-09-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/python/</loc>
+    <loc>//localhost:1313/categories/python/</loc>
     <lastmod>2018-09-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/git/</loc>
+    <loc>//localhost:1313/tags/git/</loc>
     <lastmod>2018-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/git/</loc>
+    <loc>//localhost:1313/categories/git/</loc>
     <lastmod>2018-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/git-stash/</loc>
+    <loc>//localhost:1313/posts/git-stash/</loc>
     <lastmod>2018-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/github/</loc>
+    <loc>//localhost:1313/tags/github/</loc>
     <lastmod>2018-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/github/</loc>
+    <loc>//localhost:1313/categories/github/</loc>
     <lastmod>2018-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/microsoft/</loc>
+    <loc>//localhost:1313/tags/microsoft/</loc>
     <lastmod>2018-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/microsoft/</loc>
+    <loc>//localhost:1313/categories/microsoft/</loc>
     <lastmod>2018-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/microsoft-github-acquisition/</loc>
+    <loc>//localhost:1313/posts/microsoft-github-acquisition/</loc>
     <lastmod>2018-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/how-i-merge/</loc>
+    <loc>//localhost:1313/posts/how-i-merge/</loc>
     <lastmod>2018-05-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/facebook/</loc>
+    <loc>//localhost:1313/posts/facebook/</loc>
     <lastmod>2018-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/longing-for-a-consumer-upgradable-macbook-pro/</loc>
+    <loc>//localhost:1313/posts/longing-for-a-consumer-upgradable-macbook-pro/</loc>
     <lastmod>2018-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/macbook/</loc>
+    <loc>//localhost:1313/tags/macbook/</loc>
     <lastmod>2018-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/macbook/</loc>
+    <loc>//localhost:1313/categories/macbook/</loc>
     <lastmod>2018-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/ghost/</loc>
+    <loc>//localhost:1313/tags/ghost/</loc>
     <lastmod>2018-02-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/ghost/</loc>
+    <loc>//localhost:1313/categories/ghost/</loc>
     <lastmod>2018-02-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/i-switched-to-ghost/</loc>
+    <loc>//localhost:1313/posts/i-switched-to-ghost/</loc>
     <lastmod>2018-02-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/adblocker/</loc>
+    <loc>//localhost:1313/tags/adblocker/</loc>
     <lastmod>2018-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/adblocker/</loc>
+    <loc>//localhost:1313/categories/adblocker/</loc>
     <lastmod>2018-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/ads/</loc>
+    <loc>//localhost:1313/tags/ads/</loc>
     <lastmod>2018-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/ads/</loc>
+    <loc>//localhost:1313/categories/ads/</loc>
     <lastmod>2018-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/when-to-not-use-an-ad-blocker/</loc>
+    <loc>//localhost:1313/posts/when-to-not-use-an-ad-blocker/</loc>
     <lastmod>2018-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/2017/</loc>
+    <loc>//localhost:1313/tags/2017/</loc>
     <lastmod>2017-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/2017/</loc>
+    <loc>//localhost:1313/categories/2017/</loc>
     <lastmod>2017-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/52-posts-in-52-weeks-atleast/</loc>
+    <loc>//localhost:1313/posts/52-posts-in-52-weeks-atleast/</loc>
     <lastmod>2017-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/firstpost/</loc>
+    <loc>//localhost:1313/tags/firstpost/</loc>
     <lastmod>2017-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/firstpost/</loc>
+    <loc>//localhost:1313/categories/firstpost/</loc>
     <lastmod>2017-12-19T00:00:00+00:00</lastmod>
   </url>
 </urlset>

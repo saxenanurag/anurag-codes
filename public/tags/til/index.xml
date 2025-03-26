@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Til on Anurag&#39;s Blog</title>
-    <link>/tags/til/</link>
+    <link>//localhost:1313/tags/til/</link>
     <description>Recent content in Til on Anurag&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Anurag Saxena</copyright>
     <lastBuildDate>Fri, 09 Nov 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/til/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/til/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TIL: Creating a new file or folder in NerdTree</title>
-      <link>/posts/til-creating-a-new-file-or-folder-in-nerdtree/</link>
+      <link>//localhost:1313/posts/til-creating-a-new-file-or-folder-in-nerdtree/</link>
       <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/posts/til-creating-a-new-file-or-folder-in-nerdtree/</guid>
+      <guid>//localhost:1313/posts/til-creating-a-new-file-or-folder-in-nerdtree/</guid>
       <description>&lt;p&gt;To create a new file or folder in NerdTree, bring up the NerdTree menu by typing &lt;code&gt;m&lt;/code&gt;. This brings up a multiple options including:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(a)dd a childnode&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(m)ove the current node&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(d)elete the current node&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(r)eveal in Finder the current node&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(o)pen the current node with system editor&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(q)uicklook the current node&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(c)opy the current node&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(l)ist the current node&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;So now you press &lt;code&gt;a&lt;/code&gt; and can type in the file name or the folder that you want to create.&lt;/p&gt;</description>
     </item>
   </channel>
