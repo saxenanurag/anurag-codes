@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Github on Anurag&#39;s Blog</title>
-    <link>//localhost:1313/tags/github/</link>
+    <link>/tags/github/</link>
     <description>Recent content in Github on Anurag&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Anurag Saxena</copyright>
     <lastBuildDate>Tue, 24 Jul 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git stash</title>
-      <link>//localhost:1313/posts/git-stash/</link>
+      <link>/posts/git-stash/</link>
       <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/git-stash/</guid>
+      <guid>/posts/git-stash/</guid>
       <description>&lt;p&gt;Git stash allows you to save your changes to a repo, without any commits, and go back to the clean state that your repo was in since the last commit. I use stash when I have to pull changes from origin into my code, but I don&amp;rsquo;t want to commit any of my own changes. Stash allows to manage merge conflicts as well. You can use stash when you want to switch branches.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How I Merge</title>
-      <link>//localhost:1313/posts/how-i-merge/</link>
+      <link>/posts/how-i-merge/</link>
       <pubDate>Thu, 31 May 2018 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/how-i-merge/</guid>
+      <guid>/posts/how-i-merge/</guid>
       <description>&lt;p&gt;Stage the files&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git add &amp;lt;files&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Commit the files&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git commit -m &amp;#34;&amp;lt;message subject&amp;gt;&amp;#34; -m &amp;#34;&amp;lt;message body, if needed&amp;gt;&amp;#34;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Pull the master&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git pull origin master&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Merge any conflicts and commit. Then,&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push origin master&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Profit!&lt;/p&gt;</description>
     </item>
   </channel>
